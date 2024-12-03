@@ -1,4 +1,6 @@
+#include <iostream>
 #include <SFML/Graphics.hpp>
+using namespace std;
 
 int main()
 {
@@ -22,18 +24,22 @@ int main()
         // Captura a entrada do teclado
         if (sf::Keyboard::isKeyPressed(sf::Keyboard::Left))
         {
+            cout << "<-" << endl;
             shape.move(-moveSpeed, 0); // Move para a esquerda
         }
         if (sf::Keyboard::isKeyPressed(sf::Keyboard::Right))
         {
+            cout << "->" << endl;
             shape.move(moveSpeed, 0); // Move para a direita
         }
         if (sf::Keyboard::isKeyPressed(sf::Keyboard::Up))
         {
+            cout << "^" << endl;
             shape.move(0, -moveSpeed); // Move para cima
         }
         if (sf::Keyboard::isKeyPressed(sf::Keyboard::Down))
         {
+            cout << "v" << endl;
             shape.move(0, moveSpeed); // Move para baixo
         }
 
