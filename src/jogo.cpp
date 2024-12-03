@@ -26,6 +26,10 @@ Jogo::~Jogo()
 
 void Jogo::exec()
 {
+    while(isRunning()){
+        pollEvents();
+        render();
+    }
 }
 
 const bool Jogo::isRunning() const
@@ -43,9 +47,11 @@ void Jogo::pollEvents()
 
 void Jogo::update()
 {
-
+    pollEvents();
 }
 
 void Jogo::render()
 {
+    window->clear();
+    window->display();
 }
