@@ -1,7 +1,7 @@
 CMakeFiles/sfml-app.dir/src/jogo.cpp.o: \
  /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/src/jogo.cpp \
  /usr/include/stdc-predef.h \
- /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/src/jogo.h \
+ /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/include/jogo.h \
  /usr/include/SFML/Graphics.hpp /usr/include/SFML/Window.hpp \
  /usr/include/SFML/System.hpp /usr/include/SFML/Config.hpp \
  /usr/include/SFML/System/Clock.hpp /usr/include/SFML/System/Export.hpp \
