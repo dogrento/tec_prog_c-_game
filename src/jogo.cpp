@@ -27,7 +27,7 @@ Jogo::~Jogo()
 void Jogo::exec()
 {
     while(isRunning()){
-        pollEvents();
+        update();
         render();
     }
 }
