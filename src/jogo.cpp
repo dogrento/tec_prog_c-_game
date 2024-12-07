@@ -9,12 +9,14 @@ void Jogo::initWindow()
     videoMode.height = 200;
     videoMode.width = 200;
     window = new sf::RenderWindow(videoMode, "SFML works!");
+    forma.setFillColor(sf::Color::Red);
 }
 
 Jogo::Jogo() : 
 window(nullptr),
 videoMode(),
-event()
+event(),
+jogador()
 {
     initWindow();
 }
@@ -53,5 +55,6 @@ void Jogo::update()
 void Jogo::render()
 {
     window->clear();
+    
     window->display();
 }
