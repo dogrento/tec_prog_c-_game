@@ -16,5 +16,5 @@ class Gerenciador_Entradas {
 		Gerenciador_Entradas();
 		~Gerenciador_Entradas();
 		//Movimento_Peculiar* Conecta_Comandos();
-		Personagem* Lidar_Entrada(sf::Keyboard::Key comando, Personagem *p);
+		Personagem* Lidar_Entrada(Personagem *p);
 };

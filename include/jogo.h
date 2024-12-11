@@ -7,6 +7,7 @@
     Classe Principal.
 */
 #include "Jogador.hpp"
+#include "Gerenciador_Entradas.hpp"
 class Jogo{
 private:
     sf::RenderWindow* window;
@@ -14,6 +15,7 @@ private:
     sf::Event event;
     sf::CircleShape forma;
     Jogador jogador;
+    Gerenciador_Entradas *GE;
     void initVars();
     void initWindow();
     const bool isRunning() const;

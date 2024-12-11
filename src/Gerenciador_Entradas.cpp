@@ -16,23 +16,23 @@ Gerenciador_Entradas::~Gerenciador_Entradas() {
 	//Movimento_Peculiar *comandoS = NULL;
 
 }
-Personagem* Gerenciador_Entradas::Lidar_Entrada(sf::Keyboard::Key comando, Personagem *p) {
+Personagem* Gerenciador_Entradas::Lidar_Entrada(Personagem *p) {
 if(p) { 
 	
- if((sf::Keyboard::isKeyPressed(sf::Keyboard::Key::W)) == comando) {
- 	 p->mover(0.0f, 0.1f);
+ if((sf::Keyboard::isKeyPressed(sf::Keyboard::Key::W))) {
+ 	 p->mover(0.0f, -1.0f);
 	 //return comandoW;
  }
- if((sf::Keyboard::isKeyPressed(sf::Keyboard::Key::A) == comando)) {
-	 p->mover(-0.1f, 0.0f);
+ if((sf::Keyboard::isKeyPressed(sf::Keyboard::Key::A))) {
+	 p->mover(-1.0f, 0.0f);
 	 //return comandoA; 
  }
- if((sf::Keyboard::isKeyPressed(sf::Keyboard::Key::D) == comando)) {
-	 p->mover(0.1f, 0.0f);
+ if((sf::Keyboard::isKeyPressed(sf::Keyboard::Key::D))) {
+	 p->mover(1.0f, 0.0f);
 	 //return comandoD;
  }
- if((sf::Keyboard::isKeyPressed(sf::Keyboard::Key::S)) == comando) {
-         p->mover(0.0, -0.1f);
+ if((sf::Keyboard::isKeyPressed(sf::Keyboard::Key::S))) {
+         p->mover(0.0, 1.0f);
           //return comandoS;
  }
 

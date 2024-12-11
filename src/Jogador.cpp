@@ -1,7 +1,7 @@
 #include "Jogador.hpp"
 Jogador::Jogador(const float x_, const float y_, const float largura, const float altura) : Personagem(x_ , y_, largura, altura), pontos(0) {
          Set_Posicao(x_, y_);
-
+	corpo.setFillColor(sf::Color::Blue);
         // executar();   
 }
 Jogador::Jogador():Personagem(), pontos(0) {
@@ -12,7 +12,7 @@ Jogador::~Jogador() {
 }
 void Jogador::mover(const float x_, const float y_) {
         corpo.move(x_, y_);
-	vel += Get_Posicao();
+	//vel += Get_Posicao();
 }
 void Jogador::executar() {
 		
