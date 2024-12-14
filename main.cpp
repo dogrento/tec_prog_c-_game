@@ -14,13 +14,13 @@ int main(int argc, char* argv[])
         std::string argumento = argv[1];
         
         // Mapeia os argumentos para os níveis de log
-        if (argumento == "DEBUG") {
+        if (argumento == "DEBUG" || argumento == "d") {
             nivel = GerenciadorLog::DEBUG;
-        } else if (argumento == "INFO") {
+        } else if (argumento == "INFO" || argumento == "i") {
             nivel = GerenciadorLog::INFO;
-        } else if (argumento == "WARN") {
+        } else if (argumento == "WARN" || argumento == "w") {
             nivel = GerenciadorLog::WARN;
-        } else if (argumento == "ERROR") {
+        } else if (argumento == "ERROR" || argumento == "e") {
             nivel = GerenciadorLog::ERROR;
         } else {
             std::cerr << "Nível de log inválido! Usando INFO como padrão." << std::endl;
@@ -32,10 +32,7 @@ int main(int argc, char* argv[])
     log->setNivel(nivel);
 
     // Testes de log
-    log->debug("Mensagem de depuração (DEBUG).");
-    log->info("Mensagem informativa (INFO).");
-    log->aviso("Mensagem de aviso (WARN).");
-    log->erro("Mensagem de erro (ERROR).");
+    log->info("Iniciando Jogo.");
     Jogo jogo;
     jogo.exec();
     return 0;

@@ -5,6 +5,8 @@
 #include <string>
 #include <map>
 
+using namespace std;
+
 class GerenciadorLog {
 public:
     // Enum para os níveis de log
@@ -67,12 +69,15 @@ public:
 
     // Registra uma mensagem no log
     void escrever(NivelLog nivel, const std::string& mensagem) {
+        string logFormatado = "[" + nivelParaString(nivel) + "] " + mensagem;
         if (nivel >= nivelAtual) { // Apenas loga mensagens com nível maior ou igual ao atual
             if (arquivoLog.is_open()) {
-                arquivoLog << "[" << nivelParaString(nivel) << "] " << mensagem << std::endl;
+                arquivoLog << logFormatado << std::endl;
             } else {
                 std::cerr << "Erro: arquivo de log não está aberto!" << std::endl;
             }
+
+            cout << logFormatado << endl;
         }
     }
 

@@ -1,3 +1,0 @@
-/home/elienai/Documentos/TEC/PROJETO_GAME/tec_prog_c-_game/CMakeFiles/sfml-app.dir
-/home/elienai/Documentos/TEC/PROJETO_GAME/tec_prog_c-_game/CMakeFiles/edit_cache.dir
-/home/elienai/Documentos/TEC/PROJETO_GAME/tec_prog_c-_game/CMakeFiles/rebuild_cache.dir
