@@ -130,7 +130,7 @@ CMakeFiles/sfml-app.dir/main.cpp.o: \
  /usr/include/c++/14.2.1/bits/basic_ios.tcc \
  /usr/include/c++/14.2.1/bits/ostream.tcc /usr/include/c++/14.2.1/istream \
  /usr/include/c++/14.2.1/bits/istream.tcc \
- /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/include/jogo.h \
+ /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/include/Jogo.h \
  /usr/include/SFML/Graphics.hpp /usr/include/SFML/Window.hpp \
  /usr/include/SFML/System.hpp /usr/include/SFML/Config.hpp \
  /usr/include/SFML/System/Clock.hpp /usr/include/SFML/System/Export.hpp \
@@ -239,8 +239,8 @@ CMakeFiles/sfml-app.dir/main.cpp.o: \
  /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/include/Personagem.hpp \
  /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/include/Entidade.hpp \
  /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/include/Ente.hpp \
+ /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/include/Gerenciador_Entradas.hpp \
  /usr/include/c++/14.2.1/fstream \
  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/basic_file.h \
  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++io.h \
- /usr/include/c++/14.2.1/bits/fstream.tcc \
- /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/include/Gerenciador_Entradas.hpp
+ /usr/include/c++/14.2.1/bits/fstream.tcc

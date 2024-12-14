@@ -1,4 +1,6 @@
-#include "jogo.h"
+#include <iostream>
+using namespace std;
+#include "Jogo.h"
 
 void Jogo::exec()
 {
@@ -14,8 +16,10 @@ void Jogo::exec()
         // Limpar a janela
         GG->getJanela()->clear(sf::Color::Black);
 
-        // Desenhar o retângulo
-        GG->desenhar(ret);
+        // // Desenhar o retângulo
+        // GG->desenhar(ret);
+        j.atualizar();
+        j.desenhar();
 
         // Atualizar a janela (trocar buffers)
         GG->atualizar();

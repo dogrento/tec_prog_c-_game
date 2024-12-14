@@ -153,102 +153,6 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml-app.dir/build.make CMakeFiles/sfml-app.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-src/Ente.o: src/Ente.cpp.o
-.PHONY : src/Ente.o
-
-# target to build an object file
-src/Ente.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml-app.dir/build.make CMakeFiles/sfml-app.dir/src/Ente.cpp.o
-.PHONY : src/Ente.cpp.o
-
-src/Ente.i: src/Ente.cpp.i
-.PHONY : src/Ente.i
-
-# target to preprocess a source file
-src/Ente.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml-app.dir/build.make CMakeFiles/sfml-app.dir/src/Ente.cpp.i
-.PHONY : src/Ente.cpp.i
-
-src/Ente.s: src/Ente.cpp.s
-.PHONY : src/Ente.s
-
-# target to generate assembly for a file
-src/Ente.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml-app.dir/build.make CMakeFiles/sfml-app.dir/src/Ente.cpp.s
-.PHONY : src/Ente.cpp.s
-
-src/Entidades/Entidade.o: src/Entidades/Entidade.cpp.o
-.PHONY : src/Entidades/Entidade.o
-
-# target to build an object file
-src/Entidades/Entidade.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml-app.dir/build.make CMakeFiles/sfml-app.dir/src/Entidades/Entidade.cpp.o
-.PHONY : src/Entidades/Entidade.cpp.o
-
-src/Entidades/Entidade.i: src/Entidades/Entidade.cpp.i
-.PHONY : src/Entidades/Entidade.i
-
-# target to preprocess a source file
-src/Entidades/Entidade.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml-app.dir/build.make CMakeFiles/sfml-app.dir/src/Entidades/Entidade.cpp.i
-.PHONY : src/Entidades/Entidade.cpp.i
-
-src/Entidades/Entidade.s: src/Entidades/Entidade.cpp.s
-.PHONY : src/Entidades/Entidade.s
-
-# target to generate assembly for a file
-src/Entidades/Entidade.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml-app.dir/build.make CMakeFiles/sfml-app.dir/src/Entidades/Entidade.cpp.s
-.PHONY : src/Entidades/Entidade.cpp.s
-
-src/Entidades/Jogador.o: src/Entidades/Jogador.cpp.o
-.PHONY : src/Entidades/Jogador.o
-
-# target to build an object file
-src/Entidades/Jogador.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml-app.dir/build.make CMakeFiles/sfml-app.dir/src/Entidades/Jogador.cpp.o
-.PHONY : src/Entidades/Jogador.cpp.o
-
-src/Entidades/Jogador.i: src/Entidades/Jogador.cpp.i
-.PHONY : src/Entidades/Jogador.i
-
-# target to preprocess a source file
-src/Entidades/Jogador.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml-app.dir/build.make CMakeFiles/sfml-app.dir/src/Entidades/Jogador.cpp.i
-.PHONY : src/Entidades/Jogador.cpp.i
-
-src/Entidades/Jogador.s: src/Entidades/Jogador.cpp.s
-.PHONY : src/Entidades/Jogador.s
-
-# target to generate assembly for a file
-src/Entidades/Jogador.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml-app.dir/build.make CMakeFiles/sfml-app.dir/src/Entidades/Jogador.cpp.s
-.PHONY : src/Entidades/Jogador.cpp.s
-
-src/Entidades/Personagem.o: src/Entidades/Personagem.cpp.o
-.PHONY : src/Entidades/Personagem.o
-
-# target to build an object file
-src/Entidades/Personagem.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml-app.dir/build.make CMakeFiles/sfml-app.dir/src/Entidades/Personagem.cpp.o
-.PHONY : src/Entidades/Personagem.cpp.o
-
-src/Entidades/Personagem.i: src/Entidades/Personagem.cpp.i
-.PHONY : src/Entidades/Personagem.i
-
-# target to preprocess a source file
-src/Entidades/Personagem.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml-app.dir/build.make CMakeFiles/sfml-app.dir/src/Entidades/Personagem.cpp.i
-.PHONY : src/Entidades/Personagem.cpp.i
-
-src/Entidades/Personagem.s: src/Entidades/Personagem.cpp.s
-.PHONY : src/Entidades/Personagem.s
-
-# target to generate assembly for a file
-src/Entidades/Personagem.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml-app.dir/build.make CMakeFiles/sfml-app.dir/src/Entidades/Personagem.cpp.s
-.PHONY : src/Entidades/Personagem.cpp.s
-
 src/Gerenciadores/Gerenciador_Entradas.o: src/Gerenciadores/Gerenciador_Entradas.cpp.o
 .PHONY : src/Gerenciadores/Gerenciador_Entradas.o
 
@@ -297,29 +201,29 @@ src/Gerenciadores/Gerenciador_Grafico.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml-app.dir/build.make CMakeFiles/sfml-app.dir/src/Gerenciadores/Gerenciador_Grafico.cpp.s
 .PHONY : src/Gerenciadores/Gerenciador_Grafico.cpp.s
 
-src/jogo.o: src/jogo.cpp.o
-.PHONY : src/jogo.o
+src/Jogo.o: src/Jogo.cpp.o
+.PHONY : src/Jogo.o
 
 # target to build an object file
-src/jogo.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml-app.dir/build.make CMakeFiles/sfml-app.dir/src/jogo.cpp.o
-.PHONY : src/jogo.cpp.o
+src/Jogo.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml-app.dir/build.make CMakeFiles/sfml-app.dir/src/Jogo.cpp.o
+.PHONY : src/Jogo.cpp.o
 
-src/jogo.i: src/jogo.cpp.i
-.PHONY : src/jogo.i
+src/Jogo.i: src/Jogo.cpp.i
+.PHONY : src/Jogo.i
 
 # target to preprocess a source file
-src/jogo.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml-app.dir/build.make CMakeFiles/sfml-app.dir/src/jogo.cpp.i
-.PHONY : src/jogo.cpp.i
+src/Jogo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml-app.dir/build.make CMakeFiles/sfml-app.dir/src/Jogo.cpp.i
+.PHONY : src/Jogo.cpp.i
 
-src/jogo.s: src/jogo.cpp.s
-.PHONY : src/jogo.s
+src/Jogo.s: src/Jogo.cpp.s
+.PHONY : src/Jogo.s
 
 # target to generate assembly for a file
-src/jogo.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml-app.dir/build.make CMakeFiles/sfml-app.dir/src/jogo.cpp.s
-.PHONY : src/jogo.cpp.s
+src/Jogo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml-app.dir/build.make CMakeFiles/sfml-app.dir/src/Jogo.cpp.s
+.PHONY : src/Jogo.cpp.s
 
 # Help Target
 help:
@@ -333,27 +237,15 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... src/Ente.o"
-	@echo "... src/Ente.i"
-	@echo "... src/Ente.s"
-	@echo "... src/Entidades/Entidade.o"
-	@echo "... src/Entidades/Entidade.i"
-	@echo "... src/Entidades/Entidade.s"
-	@echo "... src/Entidades/Jogador.o"
-	@echo "... src/Entidades/Jogador.i"
-	@echo "... src/Entidades/Jogador.s"
-	@echo "... src/Entidades/Personagem.o"
-	@echo "... src/Entidades/Personagem.i"
-	@echo "... src/Entidades/Personagem.s"
 	@echo "... src/Gerenciadores/Gerenciador_Entradas.o"
 	@echo "... src/Gerenciadores/Gerenciador_Entradas.i"
 	@echo "... src/Gerenciadores/Gerenciador_Entradas.s"
 	@echo "... src/Gerenciadores/Gerenciador_Grafico.o"
 	@echo "... src/Gerenciadores/Gerenciador_Grafico.i"
 	@echo "... src/Gerenciadores/Gerenciador_Grafico.s"
-	@echo "... src/jogo.o"
-	@echo "... src/jogo.i"
-	@echo "... src/jogo.s"
+	@echo "... src/Jogo.o"
+	@echo "... src/Jogo.i"
+	@echo "... src/Jogo.s"
 .PHONY : help
 
 

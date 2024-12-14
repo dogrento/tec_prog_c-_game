@@ -1,6 +1,6 @@
 #include <iostream>
 // #include <SFML/Graphics.hpp>
-#include "include/jogo.h"
+#include "include/Jogo.h"
 using namespace std;
 
 int main()

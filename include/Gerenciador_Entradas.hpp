@@ -13,8 +13,8 @@ class Gerenciador_Entradas {
 		//Movimento_Peculiar *comandoD;
 		//Movimento_Peculiar *comandoS;
 	public:
-		Gerenciador_Entradas();
-		~Gerenciador_Entradas();
+		Gerenciador_Entradas(){};
+		~Gerenciador_Entradas(){};
 		//Movimento_Peculiar* Conecta_Comandos();
-		Personagem* Lidar_Entrada(Personagem *p);
+		Personagem* Lidar_Entrada(Personagem *p){return p;};
 };

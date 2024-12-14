@@ -24,3 +24,8 @@ Apos isto, sera gerado um executavel. Para executa-la:
 ```bash
 ./sfml-app
 ```
+
+OU EXECUTE TUDO DE UMA VEZ (**ATENCAO AO DIR EM QUE SE ENCONTRA!**)...
+```bash
+make clean;cd build; cmake ..;make;./sfml-app
+```
