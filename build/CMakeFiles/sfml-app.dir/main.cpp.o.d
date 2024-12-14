@@ -130,6 +130,17 @@ CMakeFiles/sfml-app.dir/main.cpp.o: \
  /usr/include/c++/14.2.1/bits/basic_ios.tcc \
  /usr/include/c++/14.2.1/bits/ostream.tcc /usr/include/c++/14.2.1/istream \
  /usr/include/c++/14.2.1/bits/istream.tcc \
+ /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/include/Gerenciador_Logs.hpp \
+ /usr/include/c++/14.2.1/fstream /usr/include/c++/14.2.1/bits/codecvt.h \
+ /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/basic_file.h \
+ /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++io.h \
+ /usr/include/c++/14.2.1/bits/fstream.tcc /usr/include/c++/14.2.1/map \
+ /usr/include/c++/14.2.1/bits/stl_tree.h \
+ /usr/include/c++/14.2.1/ext/aligned_buffer.h \
+ /usr/include/c++/14.2.1/bits/stl_map.h /usr/include/c++/14.2.1/tuple \
+ /usr/include/c++/14.2.1/bits/uses_allocator.h \
+ /usr/include/c++/14.2.1/bits/stl_multimap.h \
+ /usr/include/c++/14.2.1/bits/erase_if.h \
  /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/include/Jogo.h \
  /usr/include/SFML/Graphics.hpp /usr/include/SFML/Window.hpp \
  /usr/include/SFML/System.hpp /usr/include/SFML/Config.hpp \
@@ -153,7 +164,7 @@ CMakeFiles/sfml-app.dir/main.cpp.o: \
  /usr/include/c++/14.2.1/ctime \
  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/time_members.h \
  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/messages_members.h \
- /usr/include/libintl.h /usr/include/c++/14.2.1/bits/codecvt.h \
+ /usr/include/libintl.h \
  /usr/include/c++/14.2.1/bits/locale_facets_nonio.tcc \
  /usr/include/c++/14.2.1/bits/locale_conv.h \
  /usr/include/SFML/System/Utf.inl /usr/include/c++/14.2.1/iterator \
@@ -205,13 +216,7 @@ CMakeFiles/sfml-app.dir/main.cpp.o: \
  /usr/include/SFML/Graphics/ConvexShape.hpp \
  /usr/include/SFML/Graphics/Font.hpp /usr/include/SFML/Graphics/Glyph.hpp \
  /usr/include/SFML/Graphics/Texture.hpp \
- /usr/include/SFML/Graphics/Image.hpp /usr/include/c++/14.2.1/map \
- /usr/include/c++/14.2.1/bits/stl_tree.h \
- /usr/include/c++/14.2.1/ext/aligned_buffer.h \
- /usr/include/c++/14.2.1/bits/stl_map.h /usr/include/c++/14.2.1/tuple \
- /usr/include/c++/14.2.1/bits/uses_allocator.h \
- /usr/include/c++/14.2.1/bits/stl_multimap.h \
- /usr/include/c++/14.2.1/bits/erase_if.h \
+ /usr/include/SFML/Graphics/Image.hpp \
  /usr/include/SFML/Graphics/RectangleShape.hpp \
  /usr/include/SFML/Graphics/RenderTarget.hpp \
  /usr/include/SFML/Graphics/View.hpp \
@@ -239,8 +244,4 @@ CMakeFiles/sfml-app.dir/main.cpp.o: \
  /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/include/Personagem.hpp \
  /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/include/Entidade.hpp \
  /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/include/Ente.hpp \
- /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/include/Gerenciador_Entradas.hpp \
- /usr/include/c++/14.2.1/fstream \
- /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/basic_file.h \
- /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++io.h \
- /usr/include/c++/14.2.1/bits/fstream.tcc
+ /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/include/Gerenciador_Entradas.hpp

@@ -6,6 +6,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/sfml-app.dir/src/Gerenciadores/Gerenciador_Entradas.cpp.o.d"
   "CMakeFiles/sfml-app.dir/src/Gerenciadores/Gerenciador_Grafico.cpp.o"
   "CMakeFiles/sfml-app.dir/src/Gerenciadores/Gerenciador_Grafico.cpp.o.d"
+  "CMakeFiles/sfml-app.dir/src/Gerenciadores/Gerenciador_Logs.cpp.o"
+  "CMakeFiles/sfml-app.dir/src/Gerenciadores/Gerenciador_Logs.cpp.o.d"
   "CMakeFiles/sfml-app.dir/src/Jogo.cpp.o"
   "CMakeFiles/sfml-app.dir/src/Jogo.cpp.o.d"
   "sfml-app"
