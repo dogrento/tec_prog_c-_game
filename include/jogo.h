@@ -1,31 +1,26 @@
 #pragma once
 
 #include <SFML/Graphics.hpp>
-// #include "src/jogo.h"
+#include "Gerenciador_Grafico.hpp"
+#include "Jogador.hpp"
+#include "Gerenciador_Entradas.hpp"
 
 /*
     Classe Principal.
 */
-#include "Jogador.hpp"
-#include "Gerenciador_Entradas.hpp"
 class Jogo{
-private:
-    sf::RenderWindow* window;
-    sf::VideoMode videoMode;
-    sf::Event event;
-    sf::CircleShape forma;
-    Jogador jogador;
-    Gerenciador_Entradas *GE;
-    void initVars();
-    void initWindow();
-    const bool isRunning() const;
-    void pollEvents();
-    void update();
-    void render();
-public:
-    Jogo();
-    virtual ~Jogo();
-
-    void exec();
-
+    private:
+        Gerenciador_Grafico* GG;
+        sf::RectangleShape ret; // possivelmente o objeto entidades estariam aqui.
+    
+    public:
+        Jogo(): 
+        GG(nullptr), 
+        ret(sf::Vector2f(50.f, 50.f)) { 
+            GG = Gerenciador_Grafico::getInstancia(); // Inicializa o Singleton
+            ret.setFillColor(sf::Color::Green);       // Define a cor do retângulo
+            ret.setPosition(200.f, 200.f);            // Define a posição inicial
+        }
+        ~Jogo(){};
+        void exec();
 };
