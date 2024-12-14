@@ -153,6 +153,126 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml-app.dir/build.make CMakeFiles/sfml-app.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/Ente.o: src/Ente.cpp.o
+.PHONY : src/Ente.o
+
+# target to build an object file
+src/Ente.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml-app.dir/build.make CMakeFiles/sfml-app.dir/src/Ente.cpp.o
+.PHONY : src/Ente.cpp.o
+
+src/Ente.i: src/Ente.cpp.i
+.PHONY : src/Ente.i
+
+# target to preprocess a source file
+src/Ente.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml-app.dir/build.make CMakeFiles/sfml-app.dir/src/Ente.cpp.i
+.PHONY : src/Ente.cpp.i
+
+src/Ente.s: src/Ente.cpp.s
+.PHONY : src/Ente.s
+
+# target to generate assembly for a file
+src/Ente.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml-app.dir/build.make CMakeFiles/sfml-app.dir/src/Ente.cpp.s
+.PHONY : src/Ente.cpp.s
+
+src/Entidade.o: src/Entidade.cpp.o
+.PHONY : src/Entidade.o
+
+# target to build an object file
+src/Entidade.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml-app.dir/build.make CMakeFiles/sfml-app.dir/src/Entidade.cpp.o
+.PHONY : src/Entidade.cpp.o
+
+src/Entidade.i: src/Entidade.cpp.i
+.PHONY : src/Entidade.i
+
+# target to preprocess a source file
+src/Entidade.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml-app.dir/build.make CMakeFiles/sfml-app.dir/src/Entidade.cpp.i
+.PHONY : src/Entidade.cpp.i
+
+src/Entidade.s: src/Entidade.cpp.s
+.PHONY : src/Entidade.s
+
+# target to generate assembly for a file
+src/Entidade.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml-app.dir/build.make CMakeFiles/sfml-app.dir/src/Entidade.cpp.s
+.PHONY : src/Entidade.cpp.s
+
+src/Gerenciador_Entradas.o: src/Gerenciador_Entradas.cpp.o
+.PHONY : src/Gerenciador_Entradas.o
+
+# target to build an object file
+src/Gerenciador_Entradas.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml-app.dir/build.make CMakeFiles/sfml-app.dir/src/Gerenciador_Entradas.cpp.o
+.PHONY : src/Gerenciador_Entradas.cpp.o
+
+src/Gerenciador_Entradas.i: src/Gerenciador_Entradas.cpp.i
+.PHONY : src/Gerenciador_Entradas.i
+
+# target to preprocess a source file
+src/Gerenciador_Entradas.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml-app.dir/build.make CMakeFiles/sfml-app.dir/src/Gerenciador_Entradas.cpp.i
+.PHONY : src/Gerenciador_Entradas.cpp.i
+
+src/Gerenciador_Entradas.s: src/Gerenciador_Entradas.cpp.s
+.PHONY : src/Gerenciador_Entradas.s
+
+# target to generate assembly for a file
+src/Gerenciador_Entradas.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml-app.dir/build.make CMakeFiles/sfml-app.dir/src/Gerenciador_Entradas.cpp.s
+.PHONY : src/Gerenciador_Entradas.cpp.s
+
+src/Jogador.o: src/Jogador.cpp.o
+.PHONY : src/Jogador.o
+
+# target to build an object file
+src/Jogador.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml-app.dir/build.make CMakeFiles/sfml-app.dir/src/Jogador.cpp.o
+.PHONY : src/Jogador.cpp.o
+
+src/Jogador.i: src/Jogador.cpp.i
+.PHONY : src/Jogador.i
+
+# target to preprocess a source file
+src/Jogador.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml-app.dir/build.make CMakeFiles/sfml-app.dir/src/Jogador.cpp.i
+.PHONY : src/Jogador.cpp.i
+
+src/Jogador.s: src/Jogador.cpp.s
+.PHONY : src/Jogador.s
+
+# target to generate assembly for a file
+src/Jogador.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml-app.dir/build.make CMakeFiles/sfml-app.dir/src/Jogador.cpp.s
+.PHONY : src/Jogador.cpp.s
+
+src/Personagem.o: src/Personagem.cpp.o
+.PHONY : src/Personagem.o
+
+# target to build an object file
+src/Personagem.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml-app.dir/build.make CMakeFiles/sfml-app.dir/src/Personagem.cpp.o
+.PHONY : src/Personagem.cpp.o
+
+src/Personagem.i: src/Personagem.cpp.i
+.PHONY : src/Personagem.i
+
+# target to preprocess a source file
+src/Personagem.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml-app.dir/build.make CMakeFiles/sfml-app.dir/src/Personagem.cpp.i
+.PHONY : src/Personagem.cpp.i
+
+src/Personagem.s: src/Personagem.cpp.s
+.PHONY : src/Personagem.s
+
+# target to generate assembly for a file
+src/Personagem.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml-app.dir/build.make CMakeFiles/sfml-app.dir/src/Personagem.cpp.s
+.PHONY : src/Personagem.cpp.s
+
 src/jogo.o: src/jogo.cpp.o
 .PHONY : src/jogo.o
 
@@ -189,6 +309,21 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/Ente.o"
+	@echo "... src/Ente.i"
+	@echo "... src/Ente.s"
+	@echo "... src/Entidade.o"
+	@echo "... src/Entidade.i"
+	@echo "... src/Entidade.s"
+	@echo "... src/Gerenciador_Entradas.o"
+	@echo "... src/Gerenciador_Entradas.i"
+	@echo "... src/Gerenciador_Entradas.s"
+	@echo "... src/Jogador.o"
+	@echo "... src/Jogador.i"
+	@echo "... src/Jogador.s"
+	@echo "... src/Personagem.o"
+	@echo "... src/Personagem.i"
+	@echo "... src/Personagem.s"
 	@echo "... src/jogo.o"
 	@echo "... src/jogo.i"
 	@echo "... src/jogo.s"

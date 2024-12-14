@@ -221,4 +221,13 @@ CMakeFiles/sfml-app.dir/main.cpp.o: \
  /usr/include/SFML/Graphics/Glsl.hpp /usr/include/SFML/Graphics/Glsl.inl \
  /usr/include/SFML/Graphics/Sprite.hpp \
  /usr/include/SFML/Graphics/Text.hpp \
- /usr/include/SFML/Graphics/VertexBuffer.hpp
+ /usr/include/SFML/Graphics/VertexBuffer.hpp \
+ /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/include/Jogador.hpp \
+ /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/include/Personagem.hpp \
+ /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/include/Entidade.hpp \
+ /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/include/Ente.hpp \
+ /usr/include/c++/14.2.1/fstream \
+ /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/basic_file.h \
+ /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++io.h \
+ /usr/include/c++/14.2.1/bits/fstream.tcc \
+ /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/include/Gerenciador_Entradas.hpp

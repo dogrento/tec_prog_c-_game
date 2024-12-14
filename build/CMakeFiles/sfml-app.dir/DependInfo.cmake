@@ -9,6 +9,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/main.cpp" "CMakeFiles/sfml-app.dir/main.cpp.o" "gcc" "CMakeFiles/sfml-app.dir/main.cpp.o.d"
+  "/home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/src/Ente.cpp" "CMakeFiles/sfml-app.dir/src/Ente.cpp.o" "gcc" "CMakeFiles/sfml-app.dir/src/Ente.cpp.o.d"
+  "/home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/src/Entidade.cpp" "CMakeFiles/sfml-app.dir/src/Entidade.cpp.o" "gcc" "CMakeFiles/sfml-app.dir/src/Entidade.cpp.o.d"
+  "/home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/src/Gerenciador_Entradas.cpp" "CMakeFiles/sfml-app.dir/src/Gerenciador_Entradas.cpp.o" "gcc" "CMakeFiles/sfml-app.dir/src/Gerenciador_Entradas.cpp.o.d"
+  "/home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/src/Jogador.cpp" "CMakeFiles/sfml-app.dir/src/Jogador.cpp.o" "gcc" "CMakeFiles/sfml-app.dir/src/Jogador.cpp.o.d"
+  "/home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/src/Personagem.cpp" "CMakeFiles/sfml-app.dir/src/Personagem.cpp.o" "gcc" "CMakeFiles/sfml-app.dir/src/Personagem.cpp.o.d"
   "/home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/src/jogo.cpp" "CMakeFiles/sfml-app.dir/src/jogo.cpp.o" "gcc" "CMakeFiles/sfml-app.dir/src/jogo.cpp.o.d"
   "" "sfml-app" "gcc" "CMakeFiles/sfml-app.dir/link.d"
   )
