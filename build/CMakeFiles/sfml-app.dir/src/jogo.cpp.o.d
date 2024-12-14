@@ -222,6 +222,19 @@ CMakeFiles/sfml-app.dir/src/jogo.cpp.o: \
  /usr/include/SFML/Graphics/Sprite.hpp \
  /usr/include/SFML/Graphics/Text.hpp \
  /usr/include/SFML/Graphics/VertexBuffer.hpp \
+ /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/include/Gerenciador_Grafico.hpp \
+ /usr/include/c++/14.2.1/memory \
+ /usr/include/c++/14.2.1/bits/stl_raw_storage_iter.h \
+ /usr/include/c++/14.2.1/bits/align.h \
+ /usr/include/c++/14.2.1/bits/unique_ptr.h \
+ /usr/include/c++/14.2.1/bits/shared_ptr.h \
+ /usr/include/c++/14.2.1/bits/shared_ptr_base.h \
+ /usr/include/c++/14.2.1/bits/allocated_ptr.h \
+ /usr/include/c++/14.2.1/ext/concurrence.h \
+ /usr/include/c++/14.2.1/bits/shared_ptr_atomic.h \
+ /usr/include/c++/14.2.1/bits/atomic_base.h \
+ /usr/include/c++/14.2.1/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/14.2.1/backward/auto_ptr.h \
  /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/include/Jogador.hpp \
  /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/include/Personagem.hpp \
  /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/include/Entidade.hpp \

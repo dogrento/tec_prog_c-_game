@@ -100,66 +100,80 @@ CMakeFiles/sfml-app.dir/src/Ente.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sfml-app.dir/src/Ente.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/src/Ente.cpp -o CMakeFiles/sfml-app.dir/src/Ente.cpp.s
 
-CMakeFiles/sfml-app.dir/src/Entidade.cpp.o: CMakeFiles/sfml-app.dir/flags.make
-CMakeFiles/sfml-app.dir/src/Entidade.cpp.o: /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/src/Entidade.cpp
-CMakeFiles/sfml-app.dir/src/Entidade.cpp.o: CMakeFiles/sfml-app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/sfml-app.dir/src/Entidade.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sfml-app.dir/src/Entidade.cpp.o -MF CMakeFiles/sfml-app.dir/src/Entidade.cpp.o.d -o CMakeFiles/sfml-app.dir/src/Entidade.cpp.o -c /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/src/Entidade.cpp
+CMakeFiles/sfml-app.dir/src/Entidades/Entidade.cpp.o: CMakeFiles/sfml-app.dir/flags.make
+CMakeFiles/sfml-app.dir/src/Entidades/Entidade.cpp.o: /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/src/Entidades/Entidade.cpp
+CMakeFiles/sfml-app.dir/src/Entidades/Entidade.cpp.o: CMakeFiles/sfml-app.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/sfml-app.dir/src/Entidades/Entidade.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sfml-app.dir/src/Entidades/Entidade.cpp.o -MF CMakeFiles/sfml-app.dir/src/Entidades/Entidade.cpp.o.d -o CMakeFiles/sfml-app.dir/src/Entidades/Entidade.cpp.o -c /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/src/Entidades/Entidade.cpp
 
-CMakeFiles/sfml-app.dir/src/Entidade.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sfml-app.dir/src/Entidade.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/src/Entidade.cpp > CMakeFiles/sfml-app.dir/src/Entidade.cpp.i
+CMakeFiles/sfml-app.dir/src/Entidades/Entidade.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sfml-app.dir/src/Entidades/Entidade.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/src/Entidades/Entidade.cpp > CMakeFiles/sfml-app.dir/src/Entidades/Entidade.cpp.i
 
-CMakeFiles/sfml-app.dir/src/Entidade.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sfml-app.dir/src/Entidade.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/src/Entidade.cpp -o CMakeFiles/sfml-app.dir/src/Entidade.cpp.s
+CMakeFiles/sfml-app.dir/src/Entidades/Entidade.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sfml-app.dir/src/Entidades/Entidade.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/src/Entidades/Entidade.cpp -o CMakeFiles/sfml-app.dir/src/Entidades/Entidade.cpp.s
 
-CMakeFiles/sfml-app.dir/src/Gerenciador_Entradas.cpp.o: CMakeFiles/sfml-app.dir/flags.make
-CMakeFiles/sfml-app.dir/src/Gerenciador_Entradas.cpp.o: /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/src/Gerenciador_Entradas.cpp
-CMakeFiles/sfml-app.dir/src/Gerenciador_Entradas.cpp.o: CMakeFiles/sfml-app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/sfml-app.dir/src/Gerenciador_Entradas.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sfml-app.dir/src/Gerenciador_Entradas.cpp.o -MF CMakeFiles/sfml-app.dir/src/Gerenciador_Entradas.cpp.o.d -o CMakeFiles/sfml-app.dir/src/Gerenciador_Entradas.cpp.o -c /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/src/Gerenciador_Entradas.cpp
+CMakeFiles/sfml-app.dir/src/Entidades/Jogador.cpp.o: CMakeFiles/sfml-app.dir/flags.make
+CMakeFiles/sfml-app.dir/src/Entidades/Jogador.cpp.o: /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/src/Entidades/Jogador.cpp
+CMakeFiles/sfml-app.dir/src/Entidades/Jogador.cpp.o: CMakeFiles/sfml-app.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/sfml-app.dir/src/Entidades/Jogador.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sfml-app.dir/src/Entidades/Jogador.cpp.o -MF CMakeFiles/sfml-app.dir/src/Entidades/Jogador.cpp.o.d -o CMakeFiles/sfml-app.dir/src/Entidades/Jogador.cpp.o -c /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/src/Entidades/Jogador.cpp
 
-CMakeFiles/sfml-app.dir/src/Gerenciador_Entradas.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sfml-app.dir/src/Gerenciador_Entradas.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/src/Gerenciador_Entradas.cpp > CMakeFiles/sfml-app.dir/src/Gerenciador_Entradas.cpp.i
+CMakeFiles/sfml-app.dir/src/Entidades/Jogador.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sfml-app.dir/src/Entidades/Jogador.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/src/Entidades/Jogador.cpp > CMakeFiles/sfml-app.dir/src/Entidades/Jogador.cpp.i
 
-CMakeFiles/sfml-app.dir/src/Gerenciador_Entradas.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sfml-app.dir/src/Gerenciador_Entradas.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/src/Gerenciador_Entradas.cpp -o CMakeFiles/sfml-app.dir/src/Gerenciador_Entradas.cpp.s
+CMakeFiles/sfml-app.dir/src/Entidades/Jogador.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sfml-app.dir/src/Entidades/Jogador.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/src/Entidades/Jogador.cpp -o CMakeFiles/sfml-app.dir/src/Entidades/Jogador.cpp.s
 
-CMakeFiles/sfml-app.dir/src/Jogador.cpp.o: CMakeFiles/sfml-app.dir/flags.make
-CMakeFiles/sfml-app.dir/src/Jogador.cpp.o: /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/src/Jogador.cpp
-CMakeFiles/sfml-app.dir/src/Jogador.cpp.o: CMakeFiles/sfml-app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/sfml-app.dir/src/Jogador.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sfml-app.dir/src/Jogador.cpp.o -MF CMakeFiles/sfml-app.dir/src/Jogador.cpp.o.d -o CMakeFiles/sfml-app.dir/src/Jogador.cpp.o -c /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/src/Jogador.cpp
+CMakeFiles/sfml-app.dir/src/Entidades/Personagem.cpp.o: CMakeFiles/sfml-app.dir/flags.make
+CMakeFiles/sfml-app.dir/src/Entidades/Personagem.cpp.o: /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/src/Entidades/Personagem.cpp
+CMakeFiles/sfml-app.dir/src/Entidades/Personagem.cpp.o: CMakeFiles/sfml-app.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/sfml-app.dir/src/Entidades/Personagem.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sfml-app.dir/src/Entidades/Personagem.cpp.o -MF CMakeFiles/sfml-app.dir/src/Entidades/Personagem.cpp.o.d -o CMakeFiles/sfml-app.dir/src/Entidades/Personagem.cpp.o -c /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/src/Entidades/Personagem.cpp
 
-CMakeFiles/sfml-app.dir/src/Jogador.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sfml-app.dir/src/Jogador.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/src/Jogador.cpp > CMakeFiles/sfml-app.dir/src/Jogador.cpp.i
+CMakeFiles/sfml-app.dir/src/Entidades/Personagem.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sfml-app.dir/src/Entidades/Personagem.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/src/Entidades/Personagem.cpp > CMakeFiles/sfml-app.dir/src/Entidades/Personagem.cpp.i
 
-CMakeFiles/sfml-app.dir/src/Jogador.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sfml-app.dir/src/Jogador.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/src/Jogador.cpp -o CMakeFiles/sfml-app.dir/src/Jogador.cpp.s
+CMakeFiles/sfml-app.dir/src/Entidades/Personagem.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sfml-app.dir/src/Entidades/Personagem.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/src/Entidades/Personagem.cpp -o CMakeFiles/sfml-app.dir/src/Entidades/Personagem.cpp.s
 
-CMakeFiles/sfml-app.dir/src/Personagem.cpp.o: CMakeFiles/sfml-app.dir/flags.make
-CMakeFiles/sfml-app.dir/src/Personagem.cpp.o: /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/src/Personagem.cpp
-CMakeFiles/sfml-app.dir/src/Personagem.cpp.o: CMakeFiles/sfml-app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/sfml-app.dir/src/Personagem.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sfml-app.dir/src/Personagem.cpp.o -MF CMakeFiles/sfml-app.dir/src/Personagem.cpp.o.d -o CMakeFiles/sfml-app.dir/src/Personagem.cpp.o -c /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/src/Personagem.cpp
+CMakeFiles/sfml-app.dir/src/Gerenciadores/Gerenciador_Entradas.cpp.o: CMakeFiles/sfml-app.dir/flags.make
+CMakeFiles/sfml-app.dir/src/Gerenciadores/Gerenciador_Entradas.cpp.o: /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/src/Gerenciadores/Gerenciador_Entradas.cpp
+CMakeFiles/sfml-app.dir/src/Gerenciadores/Gerenciador_Entradas.cpp.o: CMakeFiles/sfml-app.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/sfml-app.dir/src/Gerenciadores/Gerenciador_Entradas.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sfml-app.dir/src/Gerenciadores/Gerenciador_Entradas.cpp.o -MF CMakeFiles/sfml-app.dir/src/Gerenciadores/Gerenciador_Entradas.cpp.o.d -o CMakeFiles/sfml-app.dir/src/Gerenciadores/Gerenciador_Entradas.cpp.o -c /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/src/Gerenciadores/Gerenciador_Entradas.cpp
 
-CMakeFiles/sfml-app.dir/src/Personagem.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sfml-app.dir/src/Personagem.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/src/Personagem.cpp > CMakeFiles/sfml-app.dir/src/Personagem.cpp.i
+CMakeFiles/sfml-app.dir/src/Gerenciadores/Gerenciador_Entradas.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sfml-app.dir/src/Gerenciadores/Gerenciador_Entradas.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/src/Gerenciadores/Gerenciador_Entradas.cpp > CMakeFiles/sfml-app.dir/src/Gerenciadores/Gerenciador_Entradas.cpp.i
 
-CMakeFiles/sfml-app.dir/src/Personagem.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sfml-app.dir/src/Personagem.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/src/Personagem.cpp -o CMakeFiles/sfml-app.dir/src/Personagem.cpp.s
+CMakeFiles/sfml-app.dir/src/Gerenciadores/Gerenciador_Entradas.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sfml-app.dir/src/Gerenciadores/Gerenciador_Entradas.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/src/Gerenciadores/Gerenciador_Entradas.cpp -o CMakeFiles/sfml-app.dir/src/Gerenciadores/Gerenciador_Entradas.cpp.s
+
+CMakeFiles/sfml-app.dir/src/Gerenciadores/Gerenciador_Grafico.cpp.o: CMakeFiles/sfml-app.dir/flags.make
+CMakeFiles/sfml-app.dir/src/Gerenciadores/Gerenciador_Grafico.cpp.o: /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/src/Gerenciadores/Gerenciador_Grafico.cpp
+CMakeFiles/sfml-app.dir/src/Gerenciadores/Gerenciador_Grafico.cpp.o: CMakeFiles/sfml-app.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/sfml-app.dir/src/Gerenciadores/Gerenciador_Grafico.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sfml-app.dir/src/Gerenciadores/Gerenciador_Grafico.cpp.o -MF CMakeFiles/sfml-app.dir/src/Gerenciadores/Gerenciador_Grafico.cpp.o.d -o CMakeFiles/sfml-app.dir/src/Gerenciadores/Gerenciador_Grafico.cpp.o -c /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/src/Gerenciadores/Gerenciador_Grafico.cpp
+
+CMakeFiles/sfml-app.dir/src/Gerenciadores/Gerenciador_Grafico.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sfml-app.dir/src/Gerenciadores/Gerenciador_Grafico.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/src/Gerenciadores/Gerenciador_Grafico.cpp > CMakeFiles/sfml-app.dir/src/Gerenciadores/Gerenciador_Grafico.cpp.i
+
+CMakeFiles/sfml-app.dir/src/Gerenciadores/Gerenciador_Grafico.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sfml-app.dir/src/Gerenciadores/Gerenciador_Grafico.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/src/Gerenciadores/Gerenciador_Grafico.cpp -o CMakeFiles/sfml-app.dir/src/Gerenciadores/Gerenciador_Grafico.cpp.s
 
 CMakeFiles/sfml-app.dir/src/jogo.cpp.o: CMakeFiles/sfml-app.dir/flags.make
 CMakeFiles/sfml-app.dir/src/jogo.cpp.o: /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/src/jogo.cpp
 CMakeFiles/sfml-app.dir/src/jogo.cpp.o: CMakeFiles/sfml-app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/sfml-app.dir/src/jogo.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/sfml-app.dir/src/jogo.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sfml-app.dir/src/jogo.cpp.o -MF CMakeFiles/sfml-app.dir/src/jogo.cpp.o.d -o CMakeFiles/sfml-app.dir/src/jogo.cpp.o -c /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/src/jogo.cpp
 
 CMakeFiles/sfml-app.dir/src/jogo.cpp.i: cmake_force
@@ -174,10 +188,11 @@ CMakeFiles/sfml-app.dir/src/jogo.cpp.s: cmake_force
 sfml__app_OBJECTS = \
 "CMakeFiles/sfml-app.dir/main.cpp.o" \
 "CMakeFiles/sfml-app.dir/src/Ente.cpp.o" \
-"CMakeFiles/sfml-app.dir/src/Entidade.cpp.o" \
-"CMakeFiles/sfml-app.dir/src/Gerenciador_Entradas.cpp.o" \
-"CMakeFiles/sfml-app.dir/src/Jogador.cpp.o" \
-"CMakeFiles/sfml-app.dir/src/Personagem.cpp.o" \
+"CMakeFiles/sfml-app.dir/src/Entidades/Entidade.cpp.o" \
+"CMakeFiles/sfml-app.dir/src/Entidades/Jogador.cpp.o" \
+"CMakeFiles/sfml-app.dir/src/Entidades/Personagem.cpp.o" \
+"CMakeFiles/sfml-app.dir/src/Gerenciadores/Gerenciador_Entradas.cpp.o" \
+"CMakeFiles/sfml-app.dir/src/Gerenciadores/Gerenciador_Grafico.cpp.o" \
 "CMakeFiles/sfml-app.dir/src/jogo.cpp.o"
 
 # External object files for target sfml-app
@@ -185,15 +200,16 @@ sfml__app_EXTERNAL_OBJECTS =
 
 sfml-app: CMakeFiles/sfml-app.dir/main.cpp.o
 sfml-app: CMakeFiles/sfml-app.dir/src/Ente.cpp.o
-sfml-app: CMakeFiles/sfml-app.dir/src/Entidade.cpp.o
-sfml-app: CMakeFiles/sfml-app.dir/src/Gerenciador_Entradas.cpp.o
-sfml-app: CMakeFiles/sfml-app.dir/src/Jogador.cpp.o
-sfml-app: CMakeFiles/sfml-app.dir/src/Personagem.cpp.o
+sfml-app: CMakeFiles/sfml-app.dir/src/Entidades/Entidade.cpp.o
+sfml-app: CMakeFiles/sfml-app.dir/src/Entidades/Jogador.cpp.o
+sfml-app: CMakeFiles/sfml-app.dir/src/Entidades/Personagem.cpp.o
+sfml-app: CMakeFiles/sfml-app.dir/src/Gerenciadores/Gerenciador_Entradas.cpp.o
+sfml-app: CMakeFiles/sfml-app.dir/src/Gerenciadores/Gerenciador_Grafico.cpp.o
 sfml-app: CMakeFiles/sfml-app.dir/src/jogo.cpp.o
 sfml-app: CMakeFiles/sfml-app.dir/build.make
 sfml-app: CMakeFiles/sfml-app.dir/compiler_depend.ts
 sfml-app: CMakeFiles/sfml-app.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable sfml-app"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable sfml-app"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sfml-app.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

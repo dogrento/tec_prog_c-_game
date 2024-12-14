@@ -85,12 +85,12 @@ clean: CMakeFiles/sfml-app.dir/clean
 CMakeFiles/sfml-app.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml-app.dir/build.make CMakeFiles/sfml-app.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml-app.dir/build.make CMakeFiles/sfml-app.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target sfml-app"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9 "Built target sfml-app"
 .PHONY : CMakeFiles/sfml-app.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/sfml-app.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/build/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/build/CMakeFiles 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/sfml-app.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/build/CMakeFiles 0
 .PHONY : CMakeFiles/sfml-app.dir/rule
