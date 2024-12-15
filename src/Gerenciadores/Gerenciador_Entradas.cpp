@@ -1,4 +1,4 @@
-#include "Gerenciador_Entradas.hpp"
+#include "Gerenciadores/Gerenciador_Entradas.hpp"
 
 // Gerenciador_Entradas::Gerenciador_Entradas() {
 // 	Personagem *p = NULL;

@@ -130,7 +130,7 @@ CMakeFiles/sfml-app.dir/main.cpp.o: \
  /usr/include/c++/14.2.1/bits/basic_ios.tcc \
  /usr/include/c++/14.2.1/bits/ostream.tcc /usr/include/c++/14.2.1/istream \
  /usr/include/c++/14.2.1/bits/istream.tcc \
- /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/include/Gerenciador_Logs.hpp \
+ /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/include/Gerenciadores/Gerenciador_Logs.hpp \
  /usr/include/c++/14.2.1/fstream /usr/include/c++/14.2.1/bits/codecvt.h \
  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/basic_file.h \
  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++io.h \
@@ -227,7 +227,7 @@ CMakeFiles/sfml-app.dir/main.cpp.o: \
  /usr/include/SFML/Graphics/Sprite.hpp \
  /usr/include/SFML/Graphics/Text.hpp \
  /usr/include/SFML/Graphics/VertexBuffer.hpp \
- /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/include/Gerenciador_Grafico.hpp \
+ /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/include/Gerenciadores/Gerenciador_Grafico.hpp \
  /usr/include/c++/14.2.1/memory \
  /usr/include/c++/14.2.1/bits/stl_raw_storage_iter.h \
  /usr/include/c++/14.2.1/bits/align.h \
@@ -240,10 +240,10 @@ CMakeFiles/sfml-app.dir/main.cpp.o: \
  /usr/include/c++/14.2.1/bits/atomic_base.h \
  /usr/include/c++/14.2.1/bits/atomic_lockfree_defines.h \
  /usr/include/c++/14.2.1/backward/auto_ptr.h \
- /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/include/Gerenciador_Entradas.hpp \
- /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/include/Personagem.hpp \
- /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/include/Entidade.hpp \
+ /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/include/Gerenciadores/Gerenciador_Entradas.hpp \
+ /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/include/Entidades/Personagem.hpp \
+ /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/include/Entidades/Entidade.hpp \
  /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/include/Ente.hpp \
- /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/include/Jogador.hpp \
- /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/include/Obstaculo.hpp \
- /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/include/Fase.hpp
+ /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/include/Entidades/Jogador.hpp \
+ /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/include/Entidades/Obstaculo.hpp \
+ /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/include/Fases/Fase.hpp

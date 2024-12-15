@@ -1,6 +1,6 @@
 #include <iostream>
 // #include <SFML/Graphics.hpp>
-#include "Gerenciador_Logs.hpp"
+#include "Gerenciadores/Gerenciador_Logs.hpp"
 #include "include/Jogo.h"
 using namespace std;
 

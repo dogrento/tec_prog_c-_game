@@ -1,4 +1,4 @@
-#include "Gerenciador_Grafico.hpp"
+#include "Gerenciadores/Gerenciador_Grafico.hpp"
 
 // // Inicializa o ponteiro da instância única
 Gerenciador_Grafico* Gerenciador_Grafico::instancia = nullptr;

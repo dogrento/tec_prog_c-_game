@@ -3,13 +3,13 @@
 #include <SFML/Graphics.hpp>
 
 // include de Gerenciadores
-#include "Gerenciador_Grafico.hpp"
-#include "Gerenciador_Entradas.hpp"
+#include "Gerenciadores/Gerenciador_Grafico.hpp"
+#include "Gerenciadores/Gerenciador_Entradas.hpp"
 
 // include de Entes
-#include "Jogador.hpp"
-#include "Obstaculo.hpp"
-#include "Fase.hpp"
+#include "Entidades/Jogador.hpp"
+#include "Entidades/Obstaculo.hpp"
+#include "Fases/Fase.hpp"
 
 /*
     Classe Principal.

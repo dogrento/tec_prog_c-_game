@@ -19,7 +19,7 @@
 // 		void desenhar();
 // };
 
-#include "Gerenciador_Grafico.hpp"
+#include "Gerenciadores/Gerenciador_Grafico.hpp"
 
 class Ente {
 protected:
