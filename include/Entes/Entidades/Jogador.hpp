@@ -12,7 +12,7 @@ public:
 	pontos(-1),
 	Personagem(tam, pos) 
 	{
-        corpo.setFillColor(sf::Color::Blue); // Define a cor do jogador
+        corpo->setFillColor(sf::Color::Blue); // Define a cor do jogador
     }
 
     virtual ~Jogador() {}
