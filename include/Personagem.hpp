@@ -26,7 +26,7 @@ public:
     virtual ~Personagem() {}
 
     // Métodos para manipular a vida
-    void reduzirVida(int dano) { vida -= dano; if (vida < 0) vida = 0; }
+    void reduzirVida(int dano) { vida -= dano; if (vida < 0) vida = 0; } // sobrecarga de operador
     void aumentarVida(int cura) { vida += cura; }
     int getVida() const { return vida; }
 

@@ -18,6 +18,7 @@ void Jogo::exec()
 
         // // Desenhar o retângulo
         // GG->desenhar(ret);
+        obstaculo.desenhar();
         j.atualizar();
         j.desenhar();
 
