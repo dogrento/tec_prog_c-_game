@@ -9,11 +9,12 @@ using namespace std;
 
 class Fase:public Ente{
 private:
-    // Obstaculo obstaculo;
-    Jogador* pJogador;
+    Obstaculo* pObstaculo; // futuramente sera um lista 
+    Jogador* pJogador; // futuramente sera um lista 
 
 public:
     Fase():
+        pObstaculo(nullptr),
         pJogador(nullptr)
     {};
     ~Fase(){};
@@ -26,8 +27,15 @@ public:
             cerr << "Ponteiro para jogador NULO!" << endl;
         }
     };
-    void atualizar(){pJogador->atualizar();};
-    void desenhar(){pJogador->desenhar();};
+    void setObstaculos(){
+        cout << "Setting Obstaculo na fase." << endl;
+        pObstaculo = new Obstaculo(sf::Vector2f(500.f, 50.f), sf::Vector2f(0.f, 500.f));
+        // setInicialPosObstaculos();
+    };
+    void atualizar(){pJogador->atualizar();pObstaculo->atualizar();};
+    void desenhar(){pJogador->desenhar();pObstaculo->desenhar();};
+    void exec(){atualizar();desenhar();}
     void setInicialPosJogadores(){pJogador->setPosicao(sf::Vector2f(0.f, 200.f));};
+    // void setInicialPosObstaculos(){pObstaculo->setPosicao(sf::Vector2f(0.f, 500.f));};
     void initObstaculos(){}; // futuramente, virtual puro
 };

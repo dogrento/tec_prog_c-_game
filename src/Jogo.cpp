@@ -21,8 +21,9 @@ void Jogo::exec()
         // obstaculo.exec();
         // j.atualizar();
         // j.desenhar();
-        fase1.desenhar();
-        fase1.atualizar();
+        // fase1.desenhar();
+        // fase1.atualizar();
+        fase1.exec();
 
         // Atualizar a janela (trocar buffers)
         GG->atualizar();

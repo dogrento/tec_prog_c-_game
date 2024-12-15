@@ -2,9 +2,13 @@
 
 #include "Entidade.hpp"
 
+// o principio estou contruindo considerando uma plataforma que é
+// lidada pela Fase
+// classe obstaculo deve ser abstrata
 class Obstaculo: public Entidade{
 private:
-    bool danoso;
+    bool danoso; // attr para classe abstrata
+    sf::Vector2f tam; // attr 
 
 public:
     Obstaculo(sf::Vector2f tamanho, sf::Vector2f pos): 

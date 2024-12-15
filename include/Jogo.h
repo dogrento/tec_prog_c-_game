@@ -20,17 +20,18 @@ private:
     // sf::RectangleShape ret; // possivelmente o objeto entidades estariam aqui.
     Fase fase1;
     Jogador j;
-    Obstaculo obstaculo;
+    // Obstaculo obstaculo;
 
 public:
     Jogo(): 
         GG(nullptr),
         fase1(),
-        j(sf::Vector2f(50.f, 50.f), sf::Vector2f(10.f, 10.f)),
-        obstaculo(sf::Vector2f(50.f, 50.f), sf::Vector2f(500.f, 500.f))
+        j(sf::Vector2f(50.f, 50.f), sf::Vector2f(10.f, 10.f))
+        // obstaculo(sf::Vector2f(50.f, 50.f), sf::Vector2f(500.f, 500.f))
     {
         GG = Gerenciador_Grafico::getInstancia();
         fase1.setJogadores(&j);
+        fase1.setObstaculos();
     };
     ~Jogo(){};
     void exec();
