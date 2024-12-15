@@ -26,8 +26,8 @@ protected:
     Gerenciador_Grafico* GG; // Referência ao Gerenciador Gráfico
 
 public:
-    Ente(): 
-	GG(nullptr)
+    Ente()
+	// GG(nullptr)
 	{
         GG = Gerenciador_Grafico::getInstancia();
     }

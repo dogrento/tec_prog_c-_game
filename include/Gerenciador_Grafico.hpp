@@ -30,3 +30,5 @@ public:
     bool janelaAberta();
     void fecharJanela();
 };
+
+// Gerenciador_Grafico* Gerenciador_Grafico::instancia(nullptr);

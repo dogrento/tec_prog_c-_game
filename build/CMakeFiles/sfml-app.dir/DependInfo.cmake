@@ -11,7 +11,6 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/main.cpp" "CMakeFiles/sfml-app.dir/main.cpp.o" "gcc" "CMakeFiles/sfml-app.dir/main.cpp.o.d"
   "/home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/src/Gerenciadores/Gerenciador_Entradas.cpp" "CMakeFiles/sfml-app.dir/src/Gerenciadores/Gerenciador_Entradas.cpp.o" "gcc" "CMakeFiles/sfml-app.dir/src/Gerenciadores/Gerenciador_Entradas.cpp.o.d"
   "/home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/src/Gerenciadores/Gerenciador_Grafico.cpp" "CMakeFiles/sfml-app.dir/src/Gerenciadores/Gerenciador_Grafico.cpp.o" "gcc" "CMakeFiles/sfml-app.dir/src/Gerenciadores/Gerenciador_Grafico.cpp.o.d"
-  "/home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/src/Gerenciadores/Gerenciador_Logs.cpp" "CMakeFiles/sfml-app.dir/src/Gerenciadores/Gerenciador_Logs.cpp.o" "gcc" "CMakeFiles/sfml-app.dir/src/Gerenciadores/Gerenciador_Logs.cpp.o.d"
   "/home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/src/Jogo.cpp" "CMakeFiles/sfml-app.dir/src/Jogo.cpp.o" "gcc" "CMakeFiles/sfml-app.dir/src/Jogo.cpp.o.d"
   "" "sfml-app" "gcc" "CMakeFiles/sfml-app.dir/link.d"
   )

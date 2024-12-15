@@ -201,30 +201,6 @@ src/Gerenciadores/Gerenciador_Grafico.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml-app.dir/build.make CMakeFiles/sfml-app.dir/src/Gerenciadores/Gerenciador_Grafico.cpp.s
 .PHONY : src/Gerenciadores/Gerenciador_Grafico.cpp.s
 
-src/Gerenciadores/Gerenciador_Logs.o: src/Gerenciadores/Gerenciador_Logs.cpp.o
-.PHONY : src/Gerenciadores/Gerenciador_Logs.o
-
-# target to build an object file
-src/Gerenciadores/Gerenciador_Logs.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml-app.dir/build.make CMakeFiles/sfml-app.dir/src/Gerenciadores/Gerenciador_Logs.cpp.o
-.PHONY : src/Gerenciadores/Gerenciador_Logs.cpp.o
-
-src/Gerenciadores/Gerenciador_Logs.i: src/Gerenciadores/Gerenciador_Logs.cpp.i
-.PHONY : src/Gerenciadores/Gerenciador_Logs.i
-
-# target to preprocess a source file
-src/Gerenciadores/Gerenciador_Logs.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml-app.dir/build.make CMakeFiles/sfml-app.dir/src/Gerenciadores/Gerenciador_Logs.cpp.i
-.PHONY : src/Gerenciadores/Gerenciador_Logs.cpp.i
-
-src/Gerenciadores/Gerenciador_Logs.s: src/Gerenciadores/Gerenciador_Logs.cpp.s
-.PHONY : src/Gerenciadores/Gerenciador_Logs.s
-
-# target to generate assembly for a file
-src/Gerenciadores/Gerenciador_Logs.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml-app.dir/build.make CMakeFiles/sfml-app.dir/src/Gerenciadores/Gerenciador_Logs.cpp.s
-.PHONY : src/Gerenciadores/Gerenciador_Logs.cpp.s
-
 src/Jogo.o: src/Jogo.cpp.o
 .PHONY : src/Jogo.o
 
@@ -267,9 +243,6 @@ help:
 	@echo "... src/Gerenciadores/Gerenciador_Grafico.o"
 	@echo "... src/Gerenciadores/Gerenciador_Grafico.i"
 	@echo "... src/Gerenciadores/Gerenciador_Grafico.s"
-	@echo "... src/Gerenciadores/Gerenciador_Logs.o"
-	@echo "... src/Gerenciadores/Gerenciador_Logs.i"
-	@echo "... src/Gerenciadores/Gerenciador_Logs.s"
 	@echo "... src/Jogo.o"
 	@echo "... src/Jogo.i"
 	@echo "... src/Jogo.s"

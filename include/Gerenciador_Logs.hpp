@@ -55,12 +55,8 @@ public:
     }
 
     // Acesso à instância única
-    static GerenciadorLog* getInstancia(NivelLog nivel = DEBUG) {
-        if (instancia == nullptr) {
-            instancia = new GerenciadorLog(nivel);
-        }
-        return instancia;
-    }
+    // static GerenciadorLog* getInstancia(NivelLog nivel = DEBUG);
+    static GerenciadorLog* getInstancia();
 
     // Configura o nível atual de log
     void setNivel(NivelLog nivel) {
@@ -104,3 +100,10 @@ public:
 
 // Inicialização do Singleton
 GerenciadorLog* GerenciadorLog::instancia = nullptr;
+
+GerenciadorLog* GerenciadorLog::getInstancia(){
+    if (instancia == nullptr) {
+        instancia = new GerenciadorLog();
+    }
+    return instancia;
+}

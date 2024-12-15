@@ -28,11 +28,11 @@ int main(int argc, char* argv[])
     }
 
     // Configura o gerenciador de log com o nível especificado
-    GerenciadorLog* log = GerenciadorLog::getInstancia();
-    log->setNivel(nivel);
+    GerenciadorLog* logger = GerenciadorLog::getInstancia();
+    logger->setNivel(nivel);
 
-    // Testes de log
-    log->info("Iniciando Jogo.");
+    // Testes de logger
+    logger->info("Iniciando Jogo.");
     Jogo jogo;
     jogo.exec();
     return 0;
