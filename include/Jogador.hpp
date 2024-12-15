@@ -17,6 +17,8 @@ public:
 
     virtual ~Jogador() {}
 
+	void setInicialPos(sf::Vector2f pos){};
+
     // Implementa movimentação controlada por teclado
     void movimentar() override {
         velocidade = sf::Vector2f(0.f, 0.f);

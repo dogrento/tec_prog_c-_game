@@ -18,9 +18,11 @@ void Jogo::exec()
 
         // // Desenhar o retângulo
         // GG->desenhar(ret);
-        obstaculo.exec();
-        j.atualizar();
-        j.desenhar();
+        // obstaculo.exec();
+        // j.atualizar();
+        // j.desenhar();
+        fase1.desenhar();
+        fase1.atualizar();
 
         // Atualizar a janela (trocar buffers)
         GG->atualizar();

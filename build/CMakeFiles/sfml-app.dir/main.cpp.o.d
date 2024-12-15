@@ -245,4 +245,5 @@ CMakeFiles/sfml-app.dir/main.cpp.o: \
  /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/include/Entidade.hpp \
  /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/include/Ente.hpp \
  /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/include/Jogador.hpp \
- /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/include/Obstaculo.hpp
+ /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/include/Obstaculo.hpp \
+ /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/include/Fase.hpp

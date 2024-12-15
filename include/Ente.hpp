@@ -23,6 +23,7 @@
 
 class Ente {
 protected:
+	int id;
     Gerenciador_Grafico* GG; // Referência ao Gerenciador Gráfico
 
 public:
