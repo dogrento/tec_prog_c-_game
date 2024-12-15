@@ -4,8 +4,8 @@
 using namespace std;
 
 #include "Ente.hpp"
-#include "Entidades/Jogador.hpp"
-#include "Entidades/Obstaculo.hpp"
+#include "Entes/Entidades/Jogador.hpp"
+#include "Entes/Entidades/Obstaculo.hpp"
 
 class Fase:public Ente{
 private:

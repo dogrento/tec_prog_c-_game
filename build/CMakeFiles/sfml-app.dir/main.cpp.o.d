@@ -241,9 +241,9 @@ CMakeFiles/sfml-app.dir/main.cpp.o: \
  /usr/include/c++/14.2.1/bits/atomic_lockfree_defines.h \
  /usr/include/c++/14.2.1/backward/auto_ptr.h \
  /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/include/Gerenciadores/Gerenciador_Entradas.hpp \
- /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/include/Entidades/Personagem.hpp \
- /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/include/Entidades/Entidade.hpp \
+ /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/include/Entes/Entidades/Personagem.hpp \
+ /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/include/Entes/Entidade.hpp \
  /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/include/Ente.hpp \
- /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/include/Entidades/Jogador.hpp \
- /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/include/Entidades/Obstaculo.hpp \
- /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/include/Fases/Fase.hpp
+ /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/include/Entes/Entidades/Jogador.hpp \
+ /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/include/Entes/Entidades/Obstaculo.hpp \
+ /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/include/Entes/Fases/Fase.hpp

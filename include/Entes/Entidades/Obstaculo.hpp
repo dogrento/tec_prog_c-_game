@@ -1,6 +1,6 @@
 #pragma once
 
-#include "Entidade.hpp"
+#include "Entes/Entidade.hpp"
 
 // o principio estou contruindo considerando uma plataforma que é
 // lidada pela Fase

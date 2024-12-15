@@ -14,7 +14,7 @@
 // 		const int getNum_Vidas() const;
 			
 // };
-#include "Entidade.hpp"
+#include "Entes/Entidade.hpp"
 
 class Personagem : public Entidade {
 protected:

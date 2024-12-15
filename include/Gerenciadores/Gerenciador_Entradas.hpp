@@ -3,7 +3,7 @@
 #include <fstream>
 #include <cstdio>
 #include <SFML/Window/Keyboard.hpp>
-#include "Entidades/Personagem.hpp"
+#include "Entes/Entidades/Personagem.hpp"
 
 
 class Gerenciador_Entradas {
