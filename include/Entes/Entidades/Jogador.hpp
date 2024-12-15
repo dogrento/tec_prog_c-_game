@@ -42,4 +42,5 @@ public:
         movimentar();
         Entidade::atualizar(); // Atualiza a posição com base na velocidade
     }
+    void exec(){atualizar();}
 };

@@ -1,5 +1,6 @@
 #pragma once
 
+#include <vector>
 #include <iostream>
 using namespace std;
 
@@ -8,17 +9,19 @@ using namespace std;
 #include "Ente.hpp"
 #include "Entes/Entidades/Jogador.hpp"
 #include "Entes/Entidades/Obstaculo.hpp"
+#include "Entes/Entidades/Obstaculos/Plataforma.hpp"
 
 class Fase:public Ente{
 private:
     Gerenciador_Colisoes gerenciadorColisoes;
-    Obstaculo* pObstaculo; // futuramente sera um lista 
+    // Obstaculo* pObstaculo; // futuramente sera um lista 
+    vector<Obstaculo*> lOsbtaculo;
     Jogador* pJogador; // futuramente sera um lista 
 
 public:
     Fase():
         gerenciadorColisoes(),
-        pObstaculo(nullptr),
+        // pObstaculo(nullptr),
         pJogador(nullptr)
     {};
     ~Fase(){};
@@ -26,7 +29,9 @@ public:
         cout << "Inicializando fase" << endl;
         gerenciadorColisoes.adicionarEntidade(pJogador);
         // pObstaculo.push_back(pObstaculo);
-        gerenciadorColisoes.adicionarEntidade(pObstaculo);
+        for(int i = 0; i < lOsbtaculo.size(); i++){
+            gerenciadorColisoes.adicionarEntidade(lOsbtaculo[i]);
+        }
 
     };
     void setJogadores(Jogador* pJ){
@@ -40,11 +45,24 @@ public:
     };
     void setObstaculos(){
         cout << "Setting Obstaculo na fase." << endl;
-        pObstaculo = new Obstaculo(sf::Vector2f(500.f, 50.f), sf::Vector2f(0.f, 500.f));
+        // pObstaculo = new Obstaculo(sf::Vector2f(500.f, 50.f), sf::Vector2f(0.f, 500.f));
         // setInicialPosObstaculos();
+        Plataforma* plat = new Plataforma(sf::Vector2f(500.f, 50.f), sf::Vector2f(0.f, 500.f));
+        lOsbtaculo.push_back(plat);
     };
-    void atualizar(){pJogador->atualizar();pObstaculo->atualizar();};
-    void desenhar(){pJogador->desenhar();pObstaculo->desenhar();};
+    void atualizar(){
+        pJogador->atualizar();
+        // pObstaculo->atualizar();
+        for(int i = 0; i < lOsbtaculo.size(); i++){
+            lOsbtaculo[i]->atualizar();
+        }
+    };
+    void desenhar(){
+        pJogador->desenhar();
+        for(int i = 0; i < lOsbtaculo.size(); i++){
+            lOsbtaculo[i]->desenhar();
+        }
+    };
     void exec(){
         atualizar();
         desenhar();
