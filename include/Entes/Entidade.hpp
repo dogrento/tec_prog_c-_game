@@ -23,7 +23,8 @@
 // 		const float getX() const;
 // 		const float getY() const;
 // };
-
+#include <iostream>
+using namespace std;
 #include "Ente.hpp"
 #include <SFML/Graphics.hpp>
 
@@ -58,7 +59,10 @@ public:
 
     // Métodos para definir posição e velocidade
     void setPosicao(const sf::Vector2f& pos) { posicao = pos; corpo->setPosition(posicao); }
-    void setVelocidade(const sf::Vector2f& vel) { velocidade = vel; }
+    void setVelocidade(const sf::Vector2f& vel){ 
+        cout << "Atualizando velocidade:" << velocidade.y << "para" << vel.y << endl;
+        velocidade = vel; 
+    }
     // void setTamanho(const sf::Vector2f& tam) { corpo.; }
     sf::Vector2f getPosicao() const { return posicao; }
     sf::Vector2f getVelocidade() const { return velocidade; }
