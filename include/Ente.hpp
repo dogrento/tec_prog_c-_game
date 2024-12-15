@@ -28,12 +28,12 @@ protected:
 
 public:
     Ente()
-	// GG(nullptr)
 	{
         GG = Gerenciador_Grafico::getInstancia();
     }
     virtual ~Ente() {}
 
+    virtual void exec() = 0;
     virtual void atualizar() = 0; // Método virtual puro para atualizar o estado
     virtual void desenhar() = 0;  // Método virtual puro para desenhar na tela
 };

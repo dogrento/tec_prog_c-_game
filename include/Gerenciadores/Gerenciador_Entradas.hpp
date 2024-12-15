@@ -5,6 +5,7 @@
 #include <SFML/Window/Keyboard.hpp>
 #include "Entes/Entidades/Personagem.hpp"
 
+// MUDAR PARA GERENCIADOR DE EVENTOS
 
 class Gerenciador_Entradas {
 	private:
