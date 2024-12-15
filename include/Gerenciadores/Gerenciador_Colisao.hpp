@@ -1,14 +1,19 @@
 #pragma once
 
+#include <iostream>
 #include <vector>
 #include "Entes/Entidade.hpp"
 
+/*
+Classe Gerenciadora
+Design Pattern: Mediator
+*/
 class Gerenciador_Colisoes {
 private:
     std::vector<Entidade*> entidades; // Lista de entidades a serem monitoradas
 
 public:
-    Gerenciador_Colisoes() {}
+    Gerenciador_Colisoes(): entidades() {}
     ~Gerenciador_Colisoes() {}
 
     // Adiciona uma entidade para ser monitorada
@@ -25,7 +30,7 @@ public:
     void verificarColisoes() {
         for (size_t i = 0; i < entidades.size(); ++i) {
             for (size_t j = i + 1; j < entidades.size(); ++j) {
-                if (entidades[i]->getCorpo().getGlobalBounds().intersects(entidades[j]->getCorpo().getGlobalBounds())) {
+                if (entidades[i]->getCorpo()->getGlobalBounds().intersects(entidades[j]->getCorpo()->getGlobalBounds())) {
                     resolverColisao(entidades[i], entidades[j]);
                 }
             }

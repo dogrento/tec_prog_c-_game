@@ -32,6 +32,7 @@ public:
         GG = Gerenciador_Grafico::getInstancia();
         fase1.setJogadores(&j);
         fase1.setObstaculos();
+        fase1.init();
     };
     ~Jogo(){};
     void exec();
