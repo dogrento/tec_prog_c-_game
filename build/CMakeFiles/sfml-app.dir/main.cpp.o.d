@@ -246,5 +246,5 @@ CMakeFiles/sfml-app.dir/main.cpp.o: \
  /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/include/Ente.hpp \
  /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/include/Entes/Entidades/Jogador.hpp \
  /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/include/Entes/Entidades/Obstaculo.hpp \
- /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/include/Entes/Fases/Fase.hpp \
+ /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/include/Entes/Fase.hpp \
  /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/include/Gerenciadores/Gerenciador_Colisao.hpp

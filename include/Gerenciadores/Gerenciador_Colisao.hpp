@@ -4,7 +4,7 @@
 #include <vector>
 #include "Entes/Entidade.hpp"
 #include "Entes/Entidades/Jogador.hpp"
-#include "Entes/Fases/Fase.hpp"
+#include "Entes/Fase.hpp"
 
 /*
 Classe Gerenciadora

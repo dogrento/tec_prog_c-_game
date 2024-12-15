@@ -9,7 +9,7 @@
 // include de Entes
 #include "Entes/Entidades/Jogador.hpp"
 #include "Entes/Entidades/Obstaculo.hpp"
-#include "Entes/Fases/Fase.hpp"
+#include "Entes/Fase.hpp"
 
 /*
     Classe Principal.
