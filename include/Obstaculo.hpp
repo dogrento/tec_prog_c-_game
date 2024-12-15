@@ -12,7 +12,9 @@ public:
         danoso(false)
     {};
     ~Obstaculo(){};
-    void exec(){};
+    void exec(){
+        desenhar();
+    };
     bool getDanoso()const{return danoso;}
     void setDanoso(){danoso = !danoso;}
 };
