@@ -8,9 +8,9 @@ class Jogador : public Personagem {
 private:
 	int pontos;
 public:
-    Jogador(): 
+    Jogador(sf::Vector2f tam, sf::Vector2f pos): 
 	pontos(-1),
-	Personagem(sf::Vector2f(50.f, 50.f)) 
+	Personagem(tam, pos) 
 	{
         corpo.setFillColor(sf::Color::Blue); // Define a cor do jogador
     }

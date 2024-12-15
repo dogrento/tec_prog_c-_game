@@ -21,7 +21,10 @@ protected:
     int vida; // Quantidade de vida do personagem
 
 public:
-    Personagem(const sf::Vector2f& tamanho) : Entidade(tamanho), vida(100) {}
+    Personagem(const sf::Vector2f& tamanho, const sf::Vector2f& pos): 
+		Entidade(tamanho, pos), 
+		vida(100) 
+		{}
 
     virtual ~Personagem() {}
 

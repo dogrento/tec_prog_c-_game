@@ -7,8 +7,8 @@ private:
     bool danoso;
 
 public:
-    Obstaculo(sf::Vector2f tamanho): 
-        Entidade(tamanho),
+    Obstaculo(sf::Vector2f tamanho, sf::Vector2f pos): 
+        Entidade(tamanho, pos),
         danoso(false)
     {};
     ~Obstaculo(){};

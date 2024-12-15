@@ -23,8 +23,8 @@ private:
 public:
     Jogo(): 
         GG(nullptr),
-        j(),
-        obstaculo(sf::Vector2f(50.f, 50.f))
+        j(sf::Vector2f(50.f, 50.f), sf::Vector2f(10.f, 10.f)),
+        obstaculo(sf::Vector2f(50.f, 50.f), sf::Vector2f(500.f, 500.f))
     {
         GG = Gerenciador_Grafico::getInstancia();
     };

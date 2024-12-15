@@ -34,8 +34,11 @@ protected:
     sf::RectangleShape corpo; // Forma da entidade para desenhar
 
 public:
-    Entidade(const sf::Vector2f& tamanho) : corpo(tamanho) {
-        posicao = sf::Vector2f(0.f, 0.f);
+    Entidade(const sf::Vector2f& tamanho, sf::Vector2f pos): 
+		corpo(tamanho),
+		posicao(pos)  
+	{
+        // posicao = sf::Vector2f(0.f, 0.f);
         velocidade = sf::Vector2f(0.f, 0.f);
         corpo.setPosition(posicao);
     }
