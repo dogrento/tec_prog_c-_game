@@ -240,8 +240,9 @@ CMakeFiles/sfml-app.dir/main.cpp.o: \
  /usr/include/c++/14.2.1/bits/atomic_base.h \
  /usr/include/c++/14.2.1/bits/atomic_lockfree_defines.h \
  /usr/include/c++/14.2.1/backward/auto_ptr.h \
- /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/include/Jogador.hpp \
+ /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/include/Gerenciador_Entradas.hpp \
  /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/include/Personagem.hpp \
  /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/include/Entidade.hpp \
  /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/include/Ente.hpp \
- /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/include/Gerenciador_Entradas.hpp
+ /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/include/Jogador.hpp \
+ /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/include/Obstaculo.hpp
