@@ -248,4 +248,5 @@ CMakeFiles/sfml-app.dir/main.cpp.o: \
  /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/include/Entes/Entidades/Obstaculo.hpp \
  /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/include/Entes/Fase.hpp \
  /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/include/Gerenciadores/Gerenciador_Colisao.hpp \
- /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/include/Entes/Entidades/Obstaculos/Plataforma.hpp
+ /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/include/Entes/Entidades/Obstaculos/Plataforma.hpp \
+ /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/include/Entes/Fases/TorreE.hpp

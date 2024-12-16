@@ -23,7 +23,8 @@ void Jogo::exec()
         // j.desenhar();
         // fase1.desenhar();
         // fase1.atualizar();
-        fase1.exec();
+        // fase1.exec();
+        torreE.exec();
 
         // Atualizar a janela (trocar buffers)
         GG->atualizar();

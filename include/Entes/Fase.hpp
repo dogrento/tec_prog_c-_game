@@ -25,7 +25,7 @@ public:
         pJogador(nullptr)
     {};
     ~Fase(){};
-    void init(){
+    virtual void init(){
         cout << "Inicializando fase" << endl;
         gerenciadorColisoes.adicionarEntidade(pJogador);
         // pObstaculo.push_back(pObstaculo);
@@ -34,7 +34,7 @@ public:
         }
 
     };
-    void setJogadores(Jogador* pJ){
+    virtual void setJogadores(Jogador* pJ){
         cout << "Setting Jogador na fase." << endl;
         if(pJ){
             pJogador = pJ;
@@ -43,7 +43,7 @@ public:
             cerr << "Ponteiro para jogador NULO!" << endl;
         }
     };
-    void setObstaculos(){
+    virtual void setObstaculos(){
         cout << "Setting Obstaculo na fase." << endl;
         // pObstaculo = new Obstaculo(sf::Vector2f(500.f, 50.f), sf::Vector2f(0.f, 500.f));
         // setInicialPosObstaculos();
