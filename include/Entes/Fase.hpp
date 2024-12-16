@@ -25,6 +25,10 @@ public:
         pJogador(nullptr)
     {};
     ~Fase(){};
+    // vector<Obstaculo*> getObstaculoList()const{return lOsbtaculo;};
+    void addObstaculo(Obstaculo* obstaculo_){
+        lOsbtaculo.push_back(obstaculo_);
+    };
     virtual void init(){
         cout << "Inicializando fase" << endl;
         gerenciadorColisoes.adicionarEntidade(pJogador);
@@ -43,13 +47,14 @@ public:
             cerr << "Ponteiro para jogador NULO!" << endl;
         }
     };
-    virtual void setObstaculos(){
-        cout << "Setting Obstaculo na fase." << endl;
-        // pObstaculo = new Obstaculo(sf::Vector2f(500.f, 50.f), sf::Vector2f(0.f, 500.f));
-        // setInicialPosObstaculos();
-        Plataforma* plat = new Plataforma(sf::Vector2f(500.f, 50.f), sf::Vector2f(0.f, 500.f));
-        lOsbtaculo.push_back(plat);
-    };
+    virtual void setObstaculos() = 0;
+    // virtual void setObstaculos(){
+    //     cout << "Setting Obstaculo na fase." << endl;
+    //     // pObstaculo = new Obstaculo(sf::Vector2f(500.f, 50.f), sf::Vector2f(0.f, 500.f));
+    //     // setInicialPosObstaculos();
+    //     Plataforma* plat = new Plataforma(sf::Vector2f(500.f, 50.f), sf::Vector2f(0.f, 500.f));
+    //     lOsbtaculo.push_back(plat);
+    // };
     void atualizar(){
         pJogador->atualizar();
         // pObstaculo->atualizar();
@@ -58,9 +63,14 @@ public:
         }
     };
     void desenhar(){
+        // cout << lOsbtaculo.size() << endl;
         pJogador->desenhar();
         for(int i = 0; i < lOsbtaculo.size(); i++){
-            lOsbtaculo[i]->desenhar();
+            if(lOsbtaculo[i]){
+                lOsbtaculo[i]->desenhar();
+            }else{
+                cout << "Obstaculo na lista nulo!" << endl;
+            }
         }
     };
     void exec(){

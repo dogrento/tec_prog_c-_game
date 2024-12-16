@@ -29,21 +29,24 @@ public:
     }
 
     void setObstaculos() {
-        // std::cout << "Adicionando obstáculos específicos para Fase1!" << std::endl;
+        std::cout << "Adicionando obstáculos específicos para Fase1!" << std::endl;
 
-        // // Adiciona uma plataforma
-        // Plataforma* plataforma = new Plataforma(sf::Vector2f(400.f, 20.f), sf::Vector2f(50.f, 400.f));
+        // Adiciona uma plataforma
+        Plataforma* plataforma = new Plataforma(sf::Vector2f(400.f, 20.f), sf::Vector2f(50.f, 400.f));
         // lOsbtaculo.push_back(plataforma);
+        // this->getObstaculoList().push_back(plataforma);
+        addObstaculo(plataforma);
 
-        // // Adiciona outra plataforma ou obstáculos, se necessário
-        // Plataforma* outraPlataforma = new Plataforma(sf::Vector2f(300.f, 20.f), sf::Vector2f(500.f, 300.f));
-        // lOsbtaculo.push_back(outraPlataforma);
+        // Adiciona outra plataforma ou obstáculos, se necessário
+        Plataforma* outraPlataforma = new Plataforma(sf::Vector2f(300.f, 20.f), sf::Vector2f(500.f, 300.f));
+        // this->getObstaculoList().push_back(outraPlataforma);
+        addObstaculo(outraPlataforma);
 
-        // // Aqui você pode adicionar mais obstáculos, como inimigos, armadilhas, etc.
+        // Aqui você pode adicionar mais obstáculos, como inimigos, armadilhas, etc.
     }
 
     void exec() override {
-        std::cout << "Executando lógica de Fase1!" << std::endl;
+        // std::cout << "Executando lógica de Fase1!" << std::endl;
         Fase::exec(); // Usa a lógica padrão da fase (atualizar, desenhar, verificar colisões)
     }
 };
