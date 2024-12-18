@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 #pragma oncew
+=======
+#pragma onc
+>>>>>>> d57b9fd (altera)
 #include <iostream>
 #include <vector>
 #include <list>
