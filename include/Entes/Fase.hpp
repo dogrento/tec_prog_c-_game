@@ -5,7 +5,7 @@
 using namespace std;
 
 #include "Gerenciadores/Gerenciador_Colisao.hpp"
-
+#include "ListaEntidades.hpp"
 #include "Ente.hpp"
 #include "Entes/Entidades/Jogador.hpp"
 #include "Entes/Entidades/Obstaculo.hpp"
@@ -14,21 +14,50 @@ using namespace std;
 class Fase:public Ente{
 private:
     Gerenciador_Colisoes gerenciadorColisoes;
-    // Obstaculo* pObstaculo; // futuramente sera um lista 
-    vector<Obstaculo*> lOsbtaculo;
+    ListaEntidades<Entidades*> LEs; 
+    //vector<Obstaculo*> lOsbtaculo;
     Jogador* pJogador; // futuramente sera um lista 
 
 public:
     Fase():
         gerenciadorColisoes(),
         // pObstaculo(nullptr),
+	LEs(),
         pJogador(nullptr)
-    {};
+    {
+    void criarEntidades(int tam){
+    
+	    for(int i = 0; i < tam; i++) {
+		Entidade *pEntidade = pEntidade = new Obstaculo(sf::Vector2f(500.f, 50.f), sf::Vector2f(0.f, 500.f));
+		if(pEntidade != NULL) {
+			LEs.incluir(pEntidade);
+		}
+	    }
+    //     // setInicialPosObstaculos();
+    //     P
+	
+    
+    
+    
+    };
     ~Fase(){};
     // vector<Obstaculo*> getObstaculoList()const{return lOsbtaculo;};
     void addObstaculo(Obstaculo* obstaculo_){
         lOsbtaculo.push_back(obstaculo_);
     };
+ 
+    void criarInimFaceis(Inimigo *inimigo) {
+	if(inimigo) {
+		LEs.incluir(static_cast<Ente*>inimigo);
+	}
+    }
+    void criarPlataformas() {
+	if(plataforma) {
+		LEs.incluir	
+	}	
+    }
+
+
     virtual void init(){
         cout << "Inicializando fase" << endl;
         gerenciadorColisoes.adicionarEntidade(pJogador);

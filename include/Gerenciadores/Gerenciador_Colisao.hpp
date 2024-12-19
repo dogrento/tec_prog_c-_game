@@ -1,7 +1,9 @@
 #pragma once
-i
+
 #include <iostream>
 #include <vector>
+#include <list>
+#include <set>
 #include "Entes/Entidade.hpp"
 #include "Entes/Entidades/Jogador.hpp"
 #include "Entes/Fase.hpp"
@@ -12,35 +14,100 @@ Design Pattern: Mediator
 */
 class Gerenciador_Colisoes {
 private:
-    std::vector<Entidade*> entidades; // Lista de entidades a serem monitoradas
+    //std::vector<Entidade*> entidades; // Lista de entidades a serem monitoradas
+      std::vector<Inimigo*> LIs;
+      std::vector<Inimigo*>::iterator itIs;     
+      std::list<Obstaculo*> LOs;
+      std::list<Obstaculo*>::iterator itOs;
+      std::set<Projetil*> LPs;
+      std::set<Projetil*>::iterator itPs;
 
+      Jogador* pJog1; 
 public:
-    Gerenciador_Colisoes(): entidades() {}
-    ~Gerenciador_Colisoes() {}
+    Gerenciador_Colisoes(): LIs(), LOs(), LPs(), pJog1(NULL) { LIs.clear(); LOs.erase(); LPs.clear(); }
+    ~Gerenciador_Colisoes() { LIs.clear(); LOs.clear(); LPs.clear(); }
 
     // Adiciona uma entidade para ser monitorada
-    void adicionarEntidade(Entidade* entidade) {
-        entidades.push_back(entidade);
+    void adicionarInimigo(Inimigo* inimigo) {
+	if(inimigo != NULL) {
+           LIs.push_back(inimigo);
+	}
+    }
+    void adicionarObstaculo(Obstaculo *obstaculo) {
+	if(obstaculo != NULL) {
+           LOs.push_back(obstaculo);
+	}
+    }
+    void adicionarProjetil(Projetil *projetil) {
+	if(projetil != NULL) {
+           LPs.insert(projetil);
+	}
     }
 
     // Remove uma entidade da lista
     void removerEntidade(Entidade* entidade) {
         entidades.erase(std::remove(entidades.begin(), entidades.end(), entidade), entidades.end());
     }
-
-    // Verifica e resolve colisões entre entidades
-    void verificarColisoes() {
-        for (size_t i = 0; i < entidades.size(); ++i) {
-            for (size_t j = i + 1; j < entidades.size(); ++j) {
-                if (entidades[i]->getCorpo()->getGlobalBounds().intersects(entidades[j]->getCorpo()->getGlobalBounds())) {
-                    resolverColisao(entidades[i], entidades[j]);
-                }
-            }
-        }
+    void removeInimigo(Inimigo *inimigo) {
+	if(inimigo != NULL) { 
+		itIs = LIs.find(inimigo); 
+	   	delete(*itIs);
+		LIs.erase(itIs);
+	 }	
+    }
+    void removeObstaculo(Obstaculo *obstaculo) {
+ 	if(obstaculo != NULL) { 
+		itIs = LOs.find(obstaculo); 
+		delete(*itOs);
+		LIs.erase(itOs);
+    	}   	
+	
+    }
+    void removeProjetil(Projetil *projetil) {
+ 	if(inimigo != NULL) { 
+		itIs = LPs.find(projetil);
+		delete *itPs;
+      		LIs.erase(itPs);		
+    	}   
+    }
+    void removeListaInimigos() { 
+	   itIs = LIs.begin(); 
+	   while(itIs != LIs.end()) {
+		delete(*itIs);
+		itIs++;
+	   }
+    	   	
+    }
+    void removeListaObstaculos() {
+           itOs = LOs.begin(); 
+	   while(itOs != LOs.end()) {
+		delete(*itOs);
+		itOs++;
+	   }
+    	}
+    }
+    void removeListaProjeteis() {
+           itPs = LPs.begin(); 
+	   while(itPs != LPs.end()) {
+		delete(*itPs);
+		itPs++;
+	   }
+    	}
     }
 
+    // Verifica e resolve colisões entre entidades
+    const bool verificarColisoes(Entidade *p1, Entidade *p2) {
+        //for (size_t i = 0; i < entidades.size(); ++i) {
+          //  for (size_t j = i + 1; j < entidades.size(); ++j) {
+                if (p1->getCorpo()->getGlobalBounds().intersects(p2->getCorpo()->getGlobalBounds())) {
+                   // resolverColisao(entidades[i], entidades[j]);
+                   return true;
+		}
+            //}
+        //}
+    }
 private:
-    void resolverColisao(Entidade* e1, Entidade* e2) {
+    /*void resolverColisao(Entidade* e1, Entidade* e2) {
         std::cout << "Colisão detectada entre entidades!" << std::endl;
 
         // Verifica os tipos de entidade
@@ -61,65 +128,68 @@ private:
             tratarColisaoVertical(jogador, plataforma);
         }
     }
+    */
 
     // Trata colisões horizontais
-    void tratarColisaoHorizontal(Jogador* jogador, Obstaculo* plataforma) {
-        sf::FloatRect boundsJogador = jogador->getCorpo()->getGlobalBounds();
-        sf::FloatRect boundsPlataforma = plataforma->getCorpo()->getGlobalBounds();
-
+    void tratarColisaoHorizontal(Entidade* p1, Entidade* p2) {	
+      sf::FloatRect boundsp1 = p1->getCorpo()->getGlobalBounds();
+      sf::FloatRect boundsp2 = p2->getCorpo()->getGlobalBounds();
+      if(verificarColisoes(p1, p2)) {
         // Verifica colisão horizontal
-        if (boundsJogador.intersects(boundsPlataforma)) {
-            if (boundsJogador.left + boundsJogador.width > boundsPlataforma.left &&
-                boundsJogador.left < boundsPlataforma.left) {
+        if (boundsp1.intersects(boundsp2)) {
+            if (boundsp1.left + boundsp1.width > boundsp2.left &&
+                boundsp1.left < boundsp2.left) {
                 // Jogador colidiu com o lado esquerdo da plataforma
-                jogador->setPosicao(sf::Vector2f(
-                    boundsPlataforma.left - boundsJogador.width,
-                    jogador->getPosicao().y
+                p1->setPosicao(sf::Vector2f(
+                    boundsp2.left - boundsp1.width,
+                    p1->getPosicao().y
                 ));
-            } else if (boundsJogador.left < boundsPlataforma.left + boundsPlataforma.width &&
-                    boundsJogador.left + boundsJogador.width > boundsPlataforma.left + boundsPlataforma.width) {
+            } else if (boundsp1.left < boundsp2.left + boundsp2.width &&
+                    boundsp1.left + boundsp1.width > boundsp2.left + boundsp2.width) {
                 // Jogador colidiu com o lado direito da plataforma
-                jogador->setPosicao(sf::Vector2f(
-                    boundsPlataforma.left + boundsPlataforma.width,
-                    jogador->getPosicao().y
+                p1->setPosicao(sf::Vector2f(
+                    boundsp2.left + boundsp2.width,
+                    p1->getPosicao().y
                 ));
             }
 
             // Zera a velocidade horizontal
-            jogador->setVelocidade(sf::Vector2f(0.f, jogador->getVelocidade().y));
+            p1->setVelocidade(sf::Vector2f(0.f, p1->getVelocidade().y));
         }
+      }
     }
 
     // Trata colisões verticais
-    void tratarColisaoVertical(Jogador* jogador, Obstaculo* plataforma) {
-        sf::FloatRect boundsJogador = jogador->getCorpo()->getGlobalBounds();
-        sf::FloatRect boundsPlataforma = plataforma->getCorpo()->getGlobalBounds();
-
+    void tratarColisaoVertical(Entidade* p1, Entidade* p2) {
+     sf::FloatRect boundsp1 = p1->getCorpo()->getGlobalBounds();
+     sf::FloatRect boundsp2 = p2->getCorpo()->getGlobalBounds();
+     if(verificarColisoes(p1, p2)) {
+ 
         // Verifica colisão vertical
-        if (boundsJogador.intersects(boundsPlataforma)) {
-            if (boundsJogador.top + boundsJogador.height > boundsPlataforma.top &&
-                boundsJogador.top + boundsJogador.height <= boundsPlataforma.top + 5.f &&
-                jogador->getVelocidade().y > 0.f) {
-                // Jogador colidiu na parte superior da plataforma
-                jogador->setPosicao(sf::Vector2f(
-                    jogador->getPosicao().x,
-                    boundsPlataforma.top - boundsJogador.height
+        if (boundsp1.intersects(boundsp2)) {
+            if (boundsp1.top + boundsp1.height > boundsp2.top &&
+                boundsp1.top + boundsp1.height <= boundsp2.top + 5.f &&
+                p1->getVelocidade().y > 0.f) {
+                // p1 colidiu na parte superior da p2
+                p1->setPosicao(sf::Vector2f(
+                    p1->getPosicao().x,
+                    boundsp2.top - boundsp1.height
+                ));
+                // Para o movimento vertical
+                p1->setVelocidade(sf::Vector2f(p1->getVelocidade().x, 0.f));
+            } else if (boundsp1.top < boundsp2.top + boundsp2.height &&
+                    boundsp1.top >= boundsp2.top + boundsp2.height - 5.f &&
+                    p1->getVelocidade().y < 0.f) {
+                // p1 colidiu na parte inferior da p2
+                p1->setPosicao(sf::Vector2f(
+                    p1->getPosicao().x,
+                    boundsp2.top + boundsp2.height
                 ));
 
                 // Para o movimento vertical
-                jogador->setVelocidade(sf::Vector2f(jogador->getVelocidade().x, 0.f));
-            } else if (boundsJogador.top < boundsPlataforma.top + boundsPlataforma.height &&
-                    boundsJogador.top >= boundsPlataforma.top + boundsPlataforma.height - 5.f &&
-                    jogador->getVelocidade().y < 0.f) {
-                // Jogador colidiu na parte inferior da plataforma
-                jogador->setPosicao(sf::Vector2f(
-                    jogador->getPosicao().x,
-                    boundsPlataforma.top + boundsPlataforma.height
-                ));
-
-                // Para o movimento vertical
-                jogador->setVelocidade(sf::Vector2f(jogador->getVelocidade().x, 0.f));
+                p1->setVelocidade(sf::Vector2f(p1->getVelocidade().x, 0.f));
             }
-        }
+         }
+      }
     }
 };
