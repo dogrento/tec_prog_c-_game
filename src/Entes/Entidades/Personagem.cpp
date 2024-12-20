@@ -1,6 +1,7 @@
 #include "Entes/Entidades/Personagem.hpp"
 
-Personagem::Personagem()
+Personagem::Personagem():
+    num_vidas(-1)
 {
     cout << "Construtora: Personagem" << endl;
 }
@@ -26,7 +27,7 @@ void Personagem::setVidas(int v)
     num_vidas = v;
 }
 
-int Personagem::getVidas()
+int Personagem::getVidas() const
 {
     cout << "getVidas(): Personagem" << endl;
     return 0;

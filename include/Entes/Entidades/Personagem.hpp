@@ -22,5 +22,5 @@ public:
     virtual void mover();
 
     void setVidas(int v);
-    int getVidas();
+    int getVidas() const;
 };

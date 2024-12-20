@@ -17,4 +17,7 @@ public:
     ~Jao_Zika_Jogador();
     void executar();
     void salvar();
+    void setPontos(const int p);
+    int getPontos() const;
+    void operator=(int p);
 };

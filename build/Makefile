@@ -201,6 +201,54 @@ src/Entes/Entidade.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml-app.dir/build.make CMakeFiles/sfml-app.dir/src/Entes/Entidade.cpp.s
 .PHONY : src/Entes/Entidade.cpp.s
 
+src/Entes/Entidades/Personagem.o: src/Entes/Entidades/Personagem.cpp.o
+.PHONY : src/Entes/Entidades/Personagem.o
+
+# target to build an object file
+src/Entes/Entidades/Personagem.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml-app.dir/build.make CMakeFiles/sfml-app.dir/src/Entes/Entidades/Personagem.cpp.o
+.PHONY : src/Entes/Entidades/Personagem.cpp.o
+
+src/Entes/Entidades/Personagem.i: src/Entes/Entidades/Personagem.cpp.i
+.PHONY : src/Entes/Entidades/Personagem.i
+
+# target to preprocess a source file
+src/Entes/Entidades/Personagem.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml-app.dir/build.make CMakeFiles/sfml-app.dir/src/Entes/Entidades/Personagem.cpp.i
+.PHONY : src/Entes/Entidades/Personagem.cpp.i
+
+src/Entes/Entidades/Personagem.s: src/Entes/Entidades/Personagem.cpp.s
+.PHONY : src/Entes/Entidades/Personagem.s
+
+# target to generate assembly for a file
+src/Entes/Entidades/Personagem.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml-app.dir/build.make CMakeFiles/sfml-app.dir/src/Entes/Entidades/Personagem.cpp.s
+.PHONY : src/Entes/Entidades/Personagem.cpp.s
+
+src/Entes/Entidades/Personagens/Jao_Zika_Jogador.o: src/Entes/Entidades/Personagens/Jao_Zika_Jogador.cpp.o
+.PHONY : src/Entes/Entidades/Personagens/Jao_Zika_Jogador.o
+
+# target to build an object file
+src/Entes/Entidades/Personagens/Jao_Zika_Jogador.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml-app.dir/build.make CMakeFiles/sfml-app.dir/src/Entes/Entidades/Personagens/Jao_Zika_Jogador.cpp.o
+.PHONY : src/Entes/Entidades/Personagens/Jao_Zika_Jogador.cpp.o
+
+src/Entes/Entidades/Personagens/Jao_Zika_Jogador.i: src/Entes/Entidades/Personagens/Jao_Zika_Jogador.cpp.i
+.PHONY : src/Entes/Entidades/Personagens/Jao_Zika_Jogador.i
+
+# target to preprocess a source file
+src/Entes/Entidades/Personagens/Jao_Zika_Jogador.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml-app.dir/build.make CMakeFiles/sfml-app.dir/src/Entes/Entidades/Personagens/Jao_Zika_Jogador.cpp.i
+.PHONY : src/Entes/Entidades/Personagens/Jao_Zika_Jogador.cpp.i
+
+src/Entes/Entidades/Personagens/Jao_Zika_Jogador.s: src/Entes/Entidades/Personagens/Jao_Zika_Jogador.cpp.s
+.PHONY : src/Entes/Entidades/Personagens/Jao_Zika_Jogador.s
+
+# target to generate assembly for a file
+src/Entes/Entidades/Personagens/Jao_Zika_Jogador.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml-app.dir/build.make CMakeFiles/sfml-app.dir/src/Entes/Entidades/Personagens/Jao_Zika_Jogador.cpp.s
+.PHONY : src/Entes/Entidades/Personagens/Jao_Zika_Jogador.cpp.s
+
 src/Jao_Zika_Jogo.o: src/Jao_Zika_Jogo.cpp.o
 .PHONY : src/Jao_Zika_Jogo.o
 
@@ -243,6 +291,12 @@ help:
 	@echo "... src/Entes/Entidade.o"
 	@echo "... src/Entes/Entidade.i"
 	@echo "... src/Entes/Entidade.s"
+	@echo "... src/Entes/Entidades/Personagem.o"
+	@echo "... src/Entes/Entidades/Personagem.i"
+	@echo "... src/Entes/Entidades/Personagem.s"
+	@echo "... src/Entes/Entidades/Personagens/Jao_Zika_Jogador.o"
+	@echo "... src/Entes/Entidades/Personagens/Jao_Zika_Jogador.i"
+	@echo "... src/Entes/Entidades/Personagens/Jao_Zika_Jogador.s"
 	@echo "... src/Jao_Zika_Jogo.o"
 	@echo "... src/Jao_Zika_Jogo.i"
 	@echo "... src/Jao_Zika_Jogo.s"

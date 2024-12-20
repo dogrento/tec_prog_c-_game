@@ -114,10 +114,38 @@ CMakeFiles/sfml-app.dir/src/Entes/Entidade.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sfml-app.dir/src/Entes/Entidade.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/src/Entes/Entidade.cpp -o CMakeFiles/sfml-app.dir/src/Entes/Entidade.cpp.s
 
+CMakeFiles/sfml-app.dir/src/Entes/Entidades/Personagem.cpp.o: CMakeFiles/sfml-app.dir/flags.make
+CMakeFiles/sfml-app.dir/src/Entes/Entidades/Personagem.cpp.o: /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/src/Entes/Entidades/Personagem.cpp
+CMakeFiles/sfml-app.dir/src/Entes/Entidades/Personagem.cpp.o: CMakeFiles/sfml-app.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/sfml-app.dir/src/Entes/Entidades/Personagem.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sfml-app.dir/src/Entes/Entidades/Personagem.cpp.o -MF CMakeFiles/sfml-app.dir/src/Entes/Entidades/Personagem.cpp.o.d -o CMakeFiles/sfml-app.dir/src/Entes/Entidades/Personagem.cpp.o -c /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/src/Entes/Entidades/Personagem.cpp
+
+CMakeFiles/sfml-app.dir/src/Entes/Entidades/Personagem.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sfml-app.dir/src/Entes/Entidades/Personagem.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/src/Entes/Entidades/Personagem.cpp > CMakeFiles/sfml-app.dir/src/Entes/Entidades/Personagem.cpp.i
+
+CMakeFiles/sfml-app.dir/src/Entes/Entidades/Personagem.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sfml-app.dir/src/Entes/Entidades/Personagem.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/src/Entes/Entidades/Personagem.cpp -o CMakeFiles/sfml-app.dir/src/Entes/Entidades/Personagem.cpp.s
+
+CMakeFiles/sfml-app.dir/src/Entes/Entidades/Personagens/Jao_Zika_Jogador.cpp.o: CMakeFiles/sfml-app.dir/flags.make
+CMakeFiles/sfml-app.dir/src/Entes/Entidades/Personagens/Jao_Zika_Jogador.cpp.o: /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/src/Entes/Entidades/Personagens/Jao_Zika_Jogador.cpp
+CMakeFiles/sfml-app.dir/src/Entes/Entidades/Personagens/Jao_Zika_Jogador.cpp.o: CMakeFiles/sfml-app.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/sfml-app.dir/src/Entes/Entidades/Personagens/Jao_Zika_Jogador.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sfml-app.dir/src/Entes/Entidades/Personagens/Jao_Zika_Jogador.cpp.o -MF CMakeFiles/sfml-app.dir/src/Entes/Entidades/Personagens/Jao_Zika_Jogador.cpp.o.d -o CMakeFiles/sfml-app.dir/src/Entes/Entidades/Personagens/Jao_Zika_Jogador.cpp.o -c /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/src/Entes/Entidades/Personagens/Jao_Zika_Jogador.cpp
+
+CMakeFiles/sfml-app.dir/src/Entes/Entidades/Personagens/Jao_Zika_Jogador.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sfml-app.dir/src/Entes/Entidades/Personagens/Jao_Zika_Jogador.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/src/Entes/Entidades/Personagens/Jao_Zika_Jogador.cpp > CMakeFiles/sfml-app.dir/src/Entes/Entidades/Personagens/Jao_Zika_Jogador.cpp.i
+
+CMakeFiles/sfml-app.dir/src/Entes/Entidades/Personagens/Jao_Zika_Jogador.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sfml-app.dir/src/Entes/Entidades/Personagens/Jao_Zika_Jogador.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/src/Entes/Entidades/Personagens/Jao_Zika_Jogador.cpp -o CMakeFiles/sfml-app.dir/src/Entes/Entidades/Personagens/Jao_Zika_Jogador.cpp.s
+
 CMakeFiles/sfml-app.dir/src/Jao_Zika_Jogo.cpp.o: CMakeFiles/sfml-app.dir/flags.make
 CMakeFiles/sfml-app.dir/src/Jao_Zika_Jogo.cpp.o: /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/src/Jao_Zika_Jogo.cpp
 CMakeFiles/sfml-app.dir/src/Jao_Zika_Jogo.cpp.o: CMakeFiles/sfml-app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/sfml-app.dir/src/Jao_Zika_Jogo.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/sfml-app.dir/src/Jao_Zika_Jogo.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sfml-app.dir/src/Jao_Zika_Jogo.cpp.o -MF CMakeFiles/sfml-app.dir/src/Jao_Zika_Jogo.cpp.o.d -o CMakeFiles/sfml-app.dir/src/Jao_Zika_Jogo.cpp.o -c /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/src/Jao_Zika_Jogo.cpp
 
 CMakeFiles/sfml-app.dir/src/Jao_Zika_Jogo.cpp.i: cmake_force
@@ -133,6 +161,8 @@ sfml__app_OBJECTS = \
 "CMakeFiles/sfml-app.dir/main.cpp.o" \
 "CMakeFiles/sfml-app.dir/src/Ente.cpp.o" \
 "CMakeFiles/sfml-app.dir/src/Entes/Entidade.cpp.o" \
+"CMakeFiles/sfml-app.dir/src/Entes/Entidades/Personagem.cpp.o" \
+"CMakeFiles/sfml-app.dir/src/Entes/Entidades/Personagens/Jao_Zika_Jogador.cpp.o" \
 "CMakeFiles/sfml-app.dir/src/Jao_Zika_Jogo.cpp.o"
 
 # External object files for target sfml-app
@@ -141,11 +171,13 @@ sfml__app_EXTERNAL_OBJECTS =
 sfml-app: CMakeFiles/sfml-app.dir/main.cpp.o
 sfml-app: CMakeFiles/sfml-app.dir/src/Ente.cpp.o
 sfml-app: CMakeFiles/sfml-app.dir/src/Entes/Entidade.cpp.o
+sfml-app: CMakeFiles/sfml-app.dir/src/Entes/Entidades/Personagem.cpp.o
+sfml-app: CMakeFiles/sfml-app.dir/src/Entes/Entidades/Personagens/Jao_Zika_Jogador.cpp.o
 sfml-app: CMakeFiles/sfml-app.dir/src/Jao_Zika_Jogo.cpp.o
 sfml-app: CMakeFiles/sfml-app.dir/build.make
 sfml-app: CMakeFiles/sfml-app.dir/compiler_depend.ts
 sfml-app: CMakeFiles/sfml-app.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable sfml-app"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable sfml-app"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sfml-app.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
