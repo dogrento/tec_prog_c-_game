@@ -153,77 +153,77 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml-app.dir/build.make CMakeFiles/sfml-app.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-src/Gerenciadores/Gerenciador_Entradas.o: src/Gerenciadores/Gerenciador_Entradas.cpp.o
-.PHONY : src/Gerenciadores/Gerenciador_Entradas.o
+src/Ente.o: src/Ente.cpp.o
+.PHONY : src/Ente.o
 
 # target to build an object file
-src/Gerenciadores/Gerenciador_Entradas.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml-app.dir/build.make CMakeFiles/sfml-app.dir/src/Gerenciadores/Gerenciador_Entradas.cpp.o
-.PHONY : src/Gerenciadores/Gerenciador_Entradas.cpp.o
+src/Ente.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml-app.dir/build.make CMakeFiles/sfml-app.dir/src/Ente.cpp.o
+.PHONY : src/Ente.cpp.o
 
-src/Gerenciadores/Gerenciador_Entradas.i: src/Gerenciadores/Gerenciador_Entradas.cpp.i
-.PHONY : src/Gerenciadores/Gerenciador_Entradas.i
+src/Ente.i: src/Ente.cpp.i
+.PHONY : src/Ente.i
 
 # target to preprocess a source file
-src/Gerenciadores/Gerenciador_Entradas.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml-app.dir/build.make CMakeFiles/sfml-app.dir/src/Gerenciadores/Gerenciador_Entradas.cpp.i
-.PHONY : src/Gerenciadores/Gerenciador_Entradas.cpp.i
+src/Ente.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml-app.dir/build.make CMakeFiles/sfml-app.dir/src/Ente.cpp.i
+.PHONY : src/Ente.cpp.i
 
-src/Gerenciadores/Gerenciador_Entradas.s: src/Gerenciadores/Gerenciador_Entradas.cpp.s
-.PHONY : src/Gerenciadores/Gerenciador_Entradas.s
+src/Ente.s: src/Ente.cpp.s
+.PHONY : src/Ente.s
 
 # target to generate assembly for a file
-src/Gerenciadores/Gerenciador_Entradas.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml-app.dir/build.make CMakeFiles/sfml-app.dir/src/Gerenciadores/Gerenciador_Entradas.cpp.s
-.PHONY : src/Gerenciadores/Gerenciador_Entradas.cpp.s
+src/Ente.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml-app.dir/build.make CMakeFiles/sfml-app.dir/src/Ente.cpp.s
+.PHONY : src/Ente.cpp.s
 
-src/Gerenciadores/Gerenciador_Grafico.o: src/Gerenciadores/Gerenciador_Grafico.cpp.o
-.PHONY : src/Gerenciadores/Gerenciador_Grafico.o
+src/Entes/Entidade.o: src/Entes/Entidade.cpp.o
+.PHONY : src/Entes/Entidade.o
 
 # target to build an object file
-src/Gerenciadores/Gerenciador_Grafico.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml-app.dir/build.make CMakeFiles/sfml-app.dir/src/Gerenciadores/Gerenciador_Grafico.cpp.o
-.PHONY : src/Gerenciadores/Gerenciador_Grafico.cpp.o
+src/Entes/Entidade.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml-app.dir/build.make CMakeFiles/sfml-app.dir/src/Entes/Entidade.cpp.o
+.PHONY : src/Entes/Entidade.cpp.o
 
-src/Gerenciadores/Gerenciador_Grafico.i: src/Gerenciadores/Gerenciador_Grafico.cpp.i
-.PHONY : src/Gerenciadores/Gerenciador_Grafico.i
+src/Entes/Entidade.i: src/Entes/Entidade.cpp.i
+.PHONY : src/Entes/Entidade.i
 
 # target to preprocess a source file
-src/Gerenciadores/Gerenciador_Grafico.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml-app.dir/build.make CMakeFiles/sfml-app.dir/src/Gerenciadores/Gerenciador_Grafico.cpp.i
-.PHONY : src/Gerenciadores/Gerenciador_Grafico.cpp.i
+src/Entes/Entidade.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml-app.dir/build.make CMakeFiles/sfml-app.dir/src/Entes/Entidade.cpp.i
+.PHONY : src/Entes/Entidade.cpp.i
 
-src/Gerenciadores/Gerenciador_Grafico.s: src/Gerenciadores/Gerenciador_Grafico.cpp.s
-.PHONY : src/Gerenciadores/Gerenciador_Grafico.s
+src/Entes/Entidade.s: src/Entes/Entidade.cpp.s
+.PHONY : src/Entes/Entidade.s
 
 # target to generate assembly for a file
-src/Gerenciadores/Gerenciador_Grafico.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml-app.dir/build.make CMakeFiles/sfml-app.dir/src/Gerenciadores/Gerenciador_Grafico.cpp.s
-.PHONY : src/Gerenciadores/Gerenciador_Grafico.cpp.s
+src/Entes/Entidade.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml-app.dir/build.make CMakeFiles/sfml-app.dir/src/Entes/Entidade.cpp.s
+.PHONY : src/Entes/Entidade.cpp.s
 
-src/Jogo.o: src/Jogo.cpp.o
-.PHONY : src/Jogo.o
+src/Jao_Zika_Jogo.o: src/Jao_Zika_Jogo.cpp.o
+.PHONY : src/Jao_Zika_Jogo.o
 
 # target to build an object file
-src/Jogo.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml-app.dir/build.make CMakeFiles/sfml-app.dir/src/Jogo.cpp.o
-.PHONY : src/Jogo.cpp.o
+src/Jao_Zika_Jogo.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml-app.dir/build.make CMakeFiles/sfml-app.dir/src/Jao_Zika_Jogo.cpp.o
+.PHONY : src/Jao_Zika_Jogo.cpp.o
 
-src/Jogo.i: src/Jogo.cpp.i
-.PHONY : src/Jogo.i
+src/Jao_Zika_Jogo.i: src/Jao_Zika_Jogo.cpp.i
+.PHONY : src/Jao_Zika_Jogo.i
 
 # target to preprocess a source file
-src/Jogo.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml-app.dir/build.make CMakeFiles/sfml-app.dir/src/Jogo.cpp.i
-.PHONY : src/Jogo.cpp.i
+src/Jao_Zika_Jogo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml-app.dir/build.make CMakeFiles/sfml-app.dir/src/Jao_Zika_Jogo.cpp.i
+.PHONY : src/Jao_Zika_Jogo.cpp.i
 
-src/Jogo.s: src/Jogo.cpp.s
-.PHONY : src/Jogo.s
+src/Jao_Zika_Jogo.s: src/Jao_Zika_Jogo.cpp.s
+.PHONY : src/Jao_Zika_Jogo.s
 
 # target to generate assembly for a file
-src/Jogo.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml-app.dir/build.make CMakeFiles/sfml-app.dir/src/Jogo.cpp.s
-.PHONY : src/Jogo.cpp.s
+src/Jao_Zika_Jogo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml-app.dir/build.make CMakeFiles/sfml-app.dir/src/Jao_Zika_Jogo.cpp.s
+.PHONY : src/Jao_Zika_Jogo.cpp.s
 
 # Help Target
 help:
@@ -237,15 +237,15 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... src/Gerenciadores/Gerenciador_Entradas.o"
-	@echo "... src/Gerenciadores/Gerenciador_Entradas.i"
-	@echo "... src/Gerenciadores/Gerenciador_Entradas.s"
-	@echo "... src/Gerenciadores/Gerenciador_Grafico.o"
-	@echo "... src/Gerenciadores/Gerenciador_Grafico.i"
-	@echo "... src/Gerenciadores/Gerenciador_Grafico.s"
-	@echo "... src/Jogo.o"
-	@echo "... src/Jogo.i"
-	@echo "... src/Jogo.s"
+	@echo "... src/Ente.o"
+	@echo "... src/Ente.i"
+	@echo "... src/Ente.s"
+	@echo "... src/Entes/Entidade.o"
+	@echo "... src/Entes/Entidade.i"
+	@echo "... src/Entes/Entidade.s"
+	@echo "... src/Jao_Zika_Jogo.o"
+	@echo "... src/Jao_Zika_Jogo.i"
+	@echo "... src/Jao_Zika_Jogo.s"
 .PHONY : help
 
 
