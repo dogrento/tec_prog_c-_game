@@ -13,6 +13,7 @@ Jao_Zika_Jogador::~Jao_Zika_Jogador()
 void Jao_Zika_Jogador::executar()
 {
     cout << "executar(): Jao_Zika_Jogador" << endl;
+    this->desenhar();
 }
 
 void Jao_Zika_Jogador::salvar()

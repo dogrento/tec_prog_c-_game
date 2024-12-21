@@ -9,6 +9,7 @@ pJZ(nullptr)
 Jao_Zika_Jogo::~Jao_Zika_Jogo()
 {
     cout << "Destrutora: Jao_Zika_Jogo" << endl;
+    delete pJZ;
 }
 
 void Jao_Zika_Jogo::executar()

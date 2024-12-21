@@ -5,6 +5,8 @@ using namespace std;
 
 #include "Entes/Entidades/Personagens/Jao_Zika_Jogador.hpp"
 
+#include "Gerenciadores/Gerenciador_Grafico.hpp"
+
 /* 
     CLASSE PRINCIPAL.
 */

@@ -225,4 +225,5 @@ CMakeFiles/sfml-app.dir/main.cpp.o: \
  /usr/include/SFML/Graphics/Sprite.hpp \
  /usr/include/SFML/Graphics/Text.hpp \
  /usr/include/SFML/Graphics/VertexBuffer.hpp \
- /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/include/Ente.hpp
+ /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/include/Ente.hpp \
+ /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/include/Gerenciadores/Gerenciador_Grafico.hpp

@@ -249,6 +249,30 @@ src/Entes/Entidades/Personagens/Jao_Zika_Jogador.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml-app.dir/build.make CMakeFiles/sfml-app.dir/src/Entes/Entidades/Personagens/Jao_Zika_Jogador.cpp.s
 .PHONY : src/Entes/Entidades/Personagens/Jao_Zika_Jogador.cpp.s
 
+src/Gerenciadores/Gerenciador_Grafico.o: src/Gerenciadores/Gerenciador_Grafico.cpp.o
+.PHONY : src/Gerenciadores/Gerenciador_Grafico.o
+
+# target to build an object file
+src/Gerenciadores/Gerenciador_Grafico.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml-app.dir/build.make CMakeFiles/sfml-app.dir/src/Gerenciadores/Gerenciador_Grafico.cpp.o
+.PHONY : src/Gerenciadores/Gerenciador_Grafico.cpp.o
+
+src/Gerenciadores/Gerenciador_Grafico.i: src/Gerenciadores/Gerenciador_Grafico.cpp.i
+.PHONY : src/Gerenciadores/Gerenciador_Grafico.i
+
+# target to preprocess a source file
+src/Gerenciadores/Gerenciador_Grafico.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml-app.dir/build.make CMakeFiles/sfml-app.dir/src/Gerenciadores/Gerenciador_Grafico.cpp.i
+.PHONY : src/Gerenciadores/Gerenciador_Grafico.cpp.i
+
+src/Gerenciadores/Gerenciador_Grafico.s: src/Gerenciadores/Gerenciador_Grafico.cpp.s
+.PHONY : src/Gerenciadores/Gerenciador_Grafico.s
+
+# target to generate assembly for a file
+src/Gerenciadores/Gerenciador_Grafico.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml-app.dir/build.make CMakeFiles/sfml-app.dir/src/Gerenciadores/Gerenciador_Grafico.cpp.s
+.PHONY : src/Gerenciadores/Gerenciador_Grafico.cpp.s
+
 src/Jao_Zika_Jogo.o: src/Jao_Zika_Jogo.cpp.o
 .PHONY : src/Jao_Zika_Jogo.o
 
@@ -297,6 +321,9 @@ help:
 	@echo "... src/Entes/Entidades/Personagens/Jao_Zika_Jogador.o"
 	@echo "... src/Entes/Entidades/Personagens/Jao_Zika_Jogador.i"
 	@echo "... src/Entes/Entidades/Personagens/Jao_Zika_Jogador.s"
+	@echo "... src/Gerenciadores/Gerenciador_Grafico.o"
+	@echo "... src/Gerenciadores/Gerenciador_Grafico.i"
+	@echo "... src/Gerenciadores/Gerenciador_Grafico.s"
 	@echo "... src/Jao_Zika_Jogo.o"
 	@echo "... src/Jao_Zika_Jogo.i"
 	@echo "... src/Jao_Zika_Jogo.s"
