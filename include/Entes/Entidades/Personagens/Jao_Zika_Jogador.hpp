@@ -16,7 +16,9 @@ public:
     Jao_Zika_Jogador();
     ~Jao_Zika_Jogador();
     void executar();
+    void atualizar();
     void salvar();
+    void mover();
     void setPontos(const int p);
     int getPontos() const;
     void operator=(int p);

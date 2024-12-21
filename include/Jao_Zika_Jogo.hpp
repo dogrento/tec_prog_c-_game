@@ -13,7 +13,7 @@ using namespace std;
 class Jao_Zika_Jogo{
 private:
     Jao_Zika_Jogador* pJZ; // Jogador 1
-    // Gerenciador_Grafico GG; 
+    Gerenciador_Grafico* pGG; 
 
 public:
     Jao_Zika_Jogo();

@@ -22,6 +22,7 @@ public:
     Ente();
     ~Ente();
     virtual void executar() = 0; // virtual puro. DEVE SER DEFINIDA EM SUAS DERIVADAS
+    virtual void atualizar() = 0;
     void desenhar();
 
     void setID(const int id_);

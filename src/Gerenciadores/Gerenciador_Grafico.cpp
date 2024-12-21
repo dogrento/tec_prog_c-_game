@@ -34,26 +34,10 @@ sf::RenderWindow* Gerenciador_Grafico::getJanela() {
 
 // Desenha um objeto na janela
 void Gerenciador_Grafico::desenhar(Ente* pE) {
-    // atualizar();
-        while (janelaAberta()) { // Enquanto a janela estiver aberta
-            // Processar eventos
-            sf::Event evento;
-            while (getJanela()->pollEvent(evento)) {
-                if (evento.type == sf::Event::Closed) {
-                    fecharJanela(); // Fecha a janela ao clicar no botão "fechar"
-                }
-            }
 
-            // Limpar a janela
-            getJanela()->clear(sf::Color::Black);
+    // // Desenhar o retângulo
+    janela.draw(*pE->getFig());
 
-            // // Desenhar o retângulo
-            janela.draw(*pE->getFig());
-            // torreE.exec();
-
-            // Atualizar a janela (trocar buffers)
-            atualizar();
-    }
 }
 
 // Atualiza a janela (troca de buffers)
