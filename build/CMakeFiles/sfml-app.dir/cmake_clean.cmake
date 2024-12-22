@@ -10,6 +10,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/sfml-app.dir/src/Entes/Entidades/Personagem.cpp.o.d"
   "CMakeFiles/sfml-app.dir/src/Entes/Entidades/Personagens/Jao_Zika_Jogador.cpp.o"
   "CMakeFiles/sfml-app.dir/src/Entes/Entidades/Personagens/Jao_Zika_Jogador.cpp.o.d"
+  "CMakeFiles/sfml-app.dir/src/Entes/Fase.cpp.o"
+  "CMakeFiles/sfml-app.dir/src/Entes/Fase.cpp.o.d"
   "CMakeFiles/sfml-app.dir/src/Gerenciadores/Atribuidor_Figuras.cpp.o"
   "CMakeFiles/sfml-app.dir/src/Gerenciadores/Atribuidor_Figuras.cpp.o.d"
   "CMakeFiles/sfml-app.dir/src/Gerenciadores/Gerenciador_Grafico.cpp.o"

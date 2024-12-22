@@ -249,6 +249,30 @@ src/Entes/Entidades/Personagens/Jao_Zika_Jogador.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml-app.dir/build.make CMakeFiles/sfml-app.dir/src/Entes/Entidades/Personagens/Jao_Zika_Jogador.cpp.s
 .PHONY : src/Entes/Entidades/Personagens/Jao_Zika_Jogador.cpp.s
 
+src/Entes/Fase.o: src/Entes/Fase.cpp.o
+.PHONY : src/Entes/Fase.o
+
+# target to build an object file
+src/Entes/Fase.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml-app.dir/build.make CMakeFiles/sfml-app.dir/src/Entes/Fase.cpp.o
+.PHONY : src/Entes/Fase.cpp.o
+
+src/Entes/Fase.i: src/Entes/Fase.cpp.i
+.PHONY : src/Entes/Fase.i
+
+# target to preprocess a source file
+src/Entes/Fase.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml-app.dir/build.make CMakeFiles/sfml-app.dir/src/Entes/Fase.cpp.i
+.PHONY : src/Entes/Fase.cpp.i
+
+src/Entes/Fase.s: src/Entes/Fase.cpp.s
+.PHONY : src/Entes/Fase.s
+
+# target to generate assembly for a file
+src/Entes/Fase.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml-app.dir/build.make CMakeFiles/sfml-app.dir/src/Entes/Fase.cpp.s
+.PHONY : src/Entes/Fase.cpp.s
+
 src/Gerenciadores/Atribuidor_Figuras.o: src/Gerenciadores/Atribuidor_Figuras.cpp.o
 .PHONY : src/Gerenciadores/Atribuidor_Figuras.o
 
@@ -345,6 +369,9 @@ help:
 	@echo "... src/Entes/Entidades/Personagens/Jao_Zika_Jogador.o"
 	@echo "... src/Entes/Entidades/Personagens/Jao_Zika_Jogador.i"
 	@echo "... src/Entes/Entidades/Personagens/Jao_Zika_Jogador.s"
+	@echo "... src/Entes/Fase.o"
+	@echo "... src/Entes/Fase.i"
+	@echo "... src/Entes/Fase.s"
 	@echo "... src/Gerenciadores/Atribuidor_Figuras.o"
 	@echo "... src/Gerenciadores/Atribuidor_Figuras.i"
 	@echo "... src/Gerenciadores/Atribuidor_Figuras.s"
