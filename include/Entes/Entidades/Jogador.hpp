@@ -34,7 +34,7 @@ public:
         }
         if (sf::Keyboard::isKeyPressed(sf::Keyboard::D)) {
             velocidade.x = 5.f;
-        }
+	}
     }
 
     // Atualiza o jogador (movimentação + posição)

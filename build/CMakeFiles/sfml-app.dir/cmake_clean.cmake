@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/sfml-app.dir/link.d"
   "CMakeFiles/sfml-app.dir/main.cpp.o"
   "CMakeFiles/sfml-app.dir/main.cpp.o.d"
   "CMakeFiles/sfml-app.dir/src/Gerenciadores/Gerenciador_Entradas.cpp.o"

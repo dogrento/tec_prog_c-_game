@@ -58,8 +58,8 @@ public:
     }
 
     // Métodos para definir posição e velocidade
-    void setPosicao(const sf::Vector2f& pos) { posicao = pos; corpo->setPosition(posicao); }
-    void setVelocidade(const sf::Vector2f& vel){ 
+    void setPosicao(const sf::Vector2f& pos) { posicao = pos; corpo->setPosition(posicao);}
+    void setVelocidade(const sf::Vector2f& vel) { 
         cout << "Atualizando velocidade:" << velocidade.y << "para" << vel.y << endl;
         velocidade = vel; 
     }

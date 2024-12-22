@@ -7,85 +7,94 @@
 #include "Entes/Entidade.hpp"
 #include "Entes/Entidades/Jogador.hpp"
 #include "Entes/Fase.hpp"
-
+#include <algorithm>
 /*
 Classe Gerenciadora
 Design Pattern: Mediator
 */
+using namespace std;
 class Gerenciador_Colisoes {
 private:
     //std::vector<Entidade*> entidades; // Lista de entidades a serem monitoradas
-      std::vector<Inimigo*> LIs;
-      std::vector<Inimigo*>::iterator itIs;     
+      //std::vector<Inimigo*> LIs;
+      //std::vector<Inimigo*>::iterator itIs;     
       std::list<Obstaculo*> LOs;
       std::list<Obstaculo*>::iterator itOs;
-      std::set<Projetil*> LPs;
-      std::set<Projetil*>::iterator itPs;
-
+      //std::set<Projetil*> LPs;
+      //std::set<Projetil*>::iterator itPs;
       Jogador* pJog1; 
 public:
-    Gerenciador_Colisoes(): LIs(), LOs(), LPs(), pJog1(NULL) { LIs.clear(); LOs.erase(); LPs.clear(); }
-    ~Gerenciador_Colisoes() { LIs.clear(); LOs.clear(); LPs.clear(); }
+    Gerenciador_Colisoes(): /*LIs(),*/ LOs(), /*LPs(),*/ pJog1(NULL) { /*LIs.clear();*/ LOs.clear(); /*LPs.clear();*/ }  
+    ~Gerenciador_Colisoes() { 
+	    //removeListaInimigos();
+	    removeListaObstaculos();
+	    //removeListaProjetil();
 
+	    //LIs.clear(); 
+	    LOs.clear(); 
+	    //LPs.clear();
+    }
     // Adiciona uma entidade para ser monitorada
-    void adicionarInimigo(Inimigo* inimigo) {
+   /* void adicionarInimigo(Inimigo* inimigo) {
 	if(inimigo != NULL) {
            LIs.push_back(inimigo);
 	}
-    }
+    }*/
     void adicionarObstaculo(Obstaculo *obstaculo) {
 	if(obstaculo != NULL) {
            LOs.push_back(obstaculo);
 	}
-    }
+    }/*
     void adicionarProjetil(Projetil *projetil) {
 	if(projetil != NULL) {
            LPs.insert(projetil);
 	}
+    }*/
+    void adicionarJogador(Jogador *jogador) {
+	if(jogador != NULL) {
+	   pJog1 = jogador;	
+	}
     }
-
     // Remove uma entidade da lista
     void removerEntidade(Entidade* entidade) {
-        entidades.erase(std::remove(entidades.begin(), entidades.end(), entidade), entidades.end());
-    }
+        //entidades.erase(std::remove(entidades.begin(), entidades.end(), entidade), entidades.end());
+    }/*
     void removeInimigo(Inimigo *inimigo) {
 	if(inimigo != NULL) { 
 		itIs = LIs.find(inimigo); 
 	   	delete(*itIs);
 		LIs.erase(itIs);
 	 }	
-    }
+    }*/
     void removeObstaculo(Obstaculo *obstaculo) {
  	if(obstaculo != NULL) { 
-		itIs = LOs.find(obstaculo); 
+		itOs = find(LOs.begin(), LOs.end(), obstaculo); 
 		delete(*itOs);
-		LIs.erase(itOs);
+		LOs.erase(itOs);
     	}   	
-	
-    }
+    }/*
     void removeProjetil(Projetil *projetil) {
  	if(inimigo != NULL) { 
-		itIs = LPs.find(projetil);
+		itIs = LPs.std::find(LPs.begin(), LPs.end(), projetil);
 		delete *itPs;
-      		LIs.erase(itPs);		
+      		LPs.erase(itPs);		
     	}   
-    }
+    }*//*
     void removeListaInimigos() { 
 	   itIs = LIs.begin(); 
 	   while(itIs != LIs.end()) {
 		delete(*itIs);
 		itIs++;
 	   }
-    	   	
-    }
+    }*/
     void removeListaObstaculos() {
            itOs = LOs.begin(); 
 	   while(itOs != LOs.end()) {
 		delete(*itOs);
 		itOs++;
 	   }
-    	}
     }
+    /*
     void removeListaProjeteis() {
            itPs = LPs.begin(); 
 	   while(itPs != LPs.end()) {
@@ -93,8 +102,7 @@ public:
 		itPs++;
 	   }
     	}
-    }
-
+    }*/
     // Verifica e resolve colisões entre entidades
     const bool verificarColisoes(Entidade *p1, Entidade *p2) {
         //for (size_t i = 0; i < entidades.size(); ++i) {
@@ -105,6 +113,7 @@ public:
 		}
             //}
         //}
+	return false;
     }
 private:
     /*void resolverColisao(Entidade* e1, Entidade* e2) {
@@ -131,10 +140,10 @@ private:
     */
 
     // Trata colisões horizontais
-    void tratarColisaoHorizontal(Entidade* p1, Entidade* p2) {	
-      sf::FloatRect boundsp1 = p1->getCorpo()->getGlobalBounds();
-      sf::FloatRect boundsp2 = p2->getCorpo()->getGlobalBounds();
-      if(verificarColisoes(p1, p2)) {
+    void tratarColisao(Entidade* p1, Entidade* p2) {	
+       sf::FloatRect boundsp1 = p1->getCorpo()->getGlobalBounds();
+       sf::FloatRect boundsp2 = p2->getCorpo()->getGlobalBounds();
+       if(verificarColisoes(p1, p2)) {
         // Verifica colisão horizontal
         if (boundsp1.intersects(boundsp2)) {
             if (boundsp1.left + boundsp1.width > boundsp2.left &&
@@ -152,20 +161,10 @@ private:
                     p1->getPosicao().y
                 ));
             }
-
             // Zera a velocidade horizontal
             p1->setVelocidade(sf::Vector2f(0.f, p1->getVelocidade().y));
         }
-      }
-    }
-
-    // Trata colisões verticais
-    void tratarColisaoVertical(Entidade* p1, Entidade* p2) {
-     sf::FloatRect boundsp1 = p1->getCorpo()->getGlobalBounds();
-     sf::FloatRect boundsp2 = p2->getCorpo()->getGlobalBounds();
-     if(verificarColisoes(p1, p2)) {
- 
-        // Verifica colisão vertical
+	 // Verifica colisão vertical
         if (boundsp1.intersects(boundsp2)) {
             if (boundsp1.top + boundsp1.height > boundsp2.top &&
                 boundsp1.top + boundsp1.height <= boundsp2.top + 5.f &&
@@ -185,7 +184,6 @@ private:
                     p1->getPosicao().x,
                     boundsp2.top + boundsp2.height
                 ));
-
                 // Para o movimento vertical
                 p1->setVelocidade(sf::Vector2f(p1->getVelocidade().x, 0.f));
             }

@@ -12,7 +12,6 @@ void Jogo::exec()
                 GG->fecharJanela(); // Fecha a janela ao clicar no botão "fechar"
             }
         }
-
         // Limpar a janela
         GG->getJanela()->clear(sf::Color::Black);
 
@@ -24,7 +23,7 @@ void Jogo::exec()
         // fase1.desenhar();
         // fase1.atualizar();
         // fase1.exec();
-        torreE.exec();
+        torreE.exec(); //atualizar(); desenhar(); torreE.exec();
 
         // Atualizar a janela (trocar buffers)
         GG->atualizar();

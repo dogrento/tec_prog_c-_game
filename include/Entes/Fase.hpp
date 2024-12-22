@@ -5,7 +5,7 @@
 using namespace std;
 
 #include "Gerenciadores/Gerenciador_Colisao.hpp"
-#include "ListaEntidades.hpp"
+#include "Listas/ListaEntidades.hpp"
 #include "Ente.hpp"
 #include "Entes/Entidades/Jogador.hpp"
 #include "Entes/Entidades/Obstaculo.hpp"
@@ -14,58 +14,40 @@ using namespace std;
 class Fase:public Ente{
 private:
     Gerenciador_Colisoes gerenciadorColisoes;
-    ListaEntidades<Entidades*> LEs; 
+    ListaEntidades LEs; 
     //vector<Obstaculo*> lOsbtaculo;
     Jogador* pJogador; // futuramente sera um lista 
 
 public:
-    Fase():
+    Fase(int totalEntidades):
         gerenciadorColisoes(),
         // pObstaculo(nullptr),
 	LEs(),
         pJogador(nullptr)
     {
-    void criarEntidades(int tam){
-    
-	    for(int i = 0; i < tam; i++) {
-		Entidade *pEntidade = pEntidade = new Obstaculo(sf::Vector2f(500.f, 50.f), sf::Vector2f(0.f, 500.f));
-		if(pEntidade != NULL) {
-			LEs.incluir(pEntidade);
-		}
-	    }
-    //     // setInicialPosObstaculos();
-    //     P
-	
-    
-    
-    
+	    init();
     };
-    ~Fase(){};
+    ~Fase(){
+     // 
+    };
     // vector<Obstaculo*> getObstaculoList()const{return lOsbtaculo;};
     void addObstaculo(Obstaculo* obstaculo_){
         lOsbtaculo.push_back(obstaculo_);
     };
  
-    void criarInimFaceis(Inimigo *inimigo) {
-	if(inimigo) {
-		LEs.incluir(static_cast<Ente*>inimigo);
-	}
-    }
-    void criarPlataformas() {
-	if(plataforma) {
-		LEs.incluir	
-	}	
-    }
-
-
+    void criarInimFaceis() = 0; 
+    void criarPlataformas(Plataforma *plataforma) = 0; 
+    void criarObstaculos(Obstaculo *obstacul) = 0;
     virtual void init(){
         cout << "Inicializando fase" << endl;
-        gerenciadorColisoes.adicionarEntidade(pJogador);
-        // pObstaculo.push_back(pObstaculo);
-        for(int i = 0; i < lOsbtaculo.size(); i++){
-            gerenciadorColisoes.adicionarEntidade(lOsbtaculo[i]);
-        }
-
+        //--atual//gerenciadorColisoes.adicionarEntidade(pJogador);
+        //--comentario mais antigo// pObstaculo.push_back(pObstaculo);
+	    for(int i = 0; i < totalEntidades; i++) {
+		Entidade *pEntidade = new Ente();
+		if(pEntidade != NULL) {
+			LEs.incluir(pEntidade);
+		}
+	    }
     };
     virtual void setJogadores(Jogador* pJ){
         cout << "Setting Jogador na fase." << endl;
@@ -84,30 +66,10 @@ public:
     //     Plataforma* plat = new Plataforma(sf::Vector2f(500.f, 50.f), sf::Vector2f(0.f, 500.f));
     //     lOsbtaculo.push_back(plat);
     // };
-    void atualizar(){
-        pJogador->atualizar();
-        // pObstaculo->atualizar();
-        for(int i = 0; i < lOsbtaculo.size(); i++){
-            lOsbtaculo[i]->atualizar();
-        }
-    };
-    void desenhar(){
-        // cout << lOsbtaculo.size() << endl;
-        pJogador->desenhar();
-        for(int i = 0; i < lOsbtaculo.size(); i++){
-            if(lOsbtaculo[i]){
-                lOsbtaculo[i]->desenhar();
-            }else{
-                cout << "Obstaculo na lista nulo!" << endl;
-            }
-        }
-    };
-    void exec(){
-        atualizar();
-        desenhar();
-        gerenciadorColisoes.verificarColisoes();
-    }
+    void atualizar() = 0;
+    void desenhar() = 0;
+    void exec() = 0;
     void setInicialPosJogadores(){pJogador->setPosicao(sf::Vector2f(0.f, 200.f));};
     // void setInicialPosObstaculos(){pObstaculo->setPosicao(sf::Vector2f(0.f, 500.f));};
-    void initObstaculos(){}; // futuramente, virtual puro
+    void initObstaculos(){}; //futuramente, virtual puro
 };
