@@ -36,7 +36,7 @@ sf::RenderWindow* Gerenciador_Grafico::getJanela() {
 void Gerenciador_Grafico::desenhar(Ente* pE) {
 
     // // Desenhar o retângulo
-    janela.draw(*pE->getFig());
+    janela.draw(*pE->getFig()->getCorpo());
 
 }
 

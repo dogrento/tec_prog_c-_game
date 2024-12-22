@@ -31,14 +31,17 @@ int Ente::getID() const
     return 0;
 }
 
-void Ente::setFig(sf::Vector2f tam, sf::Vector2f pos)
+void Ente::setFig(sf::Vector2f tam)
 {
     cout << "setFig(sf::Vector2f tam): Ente" << endl;
-    pFig = new sf::RectangleShape(tam);
-    pFig->setPosition(pos);
+    // pFig = new sf::RectangleShape(tam);
+    pFig = new Atribuidor_Figuras(sf::Vector2f(50.f, 50.f));
+    pFig->setCorpo();
+    // pFig->getCorpo()->setPosition(pos);
+    // pFig->setPosition(pos);
 }
 
-sf::RectangleShape *Ente::getFig() const
+Atribuidor_Figuras *Ente::getFig() const
 {
     cout << "getFig(): Ente" << endl;
     return pFig;

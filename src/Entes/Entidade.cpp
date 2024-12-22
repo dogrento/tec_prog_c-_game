@@ -16,7 +16,8 @@ void Entidade::atualizar(){
     // posicao += velocidade;
     setPosicao(getPosicao()+getVelocidade());
     cout << getPosicao().x << " " << getPosicao().y << endl;
-    pFig->setPosition(posicao);
+    // pFig->setPosition(posicao);
+    pFig->getCorpo()->setPosition(posicao);
 }
 void Entidade::salvarBufferData() 
 {

@@ -249,6 +249,30 @@ src/Entes/Entidades/Personagens/Jao_Zika_Jogador.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml-app.dir/build.make CMakeFiles/sfml-app.dir/src/Entes/Entidades/Personagens/Jao_Zika_Jogador.cpp.s
 .PHONY : src/Entes/Entidades/Personagens/Jao_Zika_Jogador.cpp.s
 
+src/Gerenciadores/Atribuidor_Figuras.o: src/Gerenciadores/Atribuidor_Figuras.cpp.o
+.PHONY : src/Gerenciadores/Atribuidor_Figuras.o
+
+# target to build an object file
+src/Gerenciadores/Atribuidor_Figuras.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml-app.dir/build.make CMakeFiles/sfml-app.dir/src/Gerenciadores/Atribuidor_Figuras.cpp.o
+.PHONY : src/Gerenciadores/Atribuidor_Figuras.cpp.o
+
+src/Gerenciadores/Atribuidor_Figuras.i: src/Gerenciadores/Atribuidor_Figuras.cpp.i
+.PHONY : src/Gerenciadores/Atribuidor_Figuras.i
+
+# target to preprocess a source file
+src/Gerenciadores/Atribuidor_Figuras.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml-app.dir/build.make CMakeFiles/sfml-app.dir/src/Gerenciadores/Atribuidor_Figuras.cpp.i
+.PHONY : src/Gerenciadores/Atribuidor_Figuras.cpp.i
+
+src/Gerenciadores/Atribuidor_Figuras.s: src/Gerenciadores/Atribuidor_Figuras.cpp.s
+.PHONY : src/Gerenciadores/Atribuidor_Figuras.s
+
+# target to generate assembly for a file
+src/Gerenciadores/Atribuidor_Figuras.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sfml-app.dir/build.make CMakeFiles/sfml-app.dir/src/Gerenciadores/Atribuidor_Figuras.cpp.s
+.PHONY : src/Gerenciadores/Atribuidor_Figuras.cpp.s
+
 src/Gerenciadores/Gerenciador_Grafico.o: src/Gerenciadores/Gerenciador_Grafico.cpp.o
 .PHONY : src/Gerenciadores/Gerenciador_Grafico.o
 
@@ -321,6 +345,9 @@ help:
 	@echo "... src/Entes/Entidades/Personagens/Jao_Zika_Jogador.o"
 	@echo "... src/Entes/Entidades/Personagens/Jao_Zika_Jogador.i"
 	@echo "... src/Entes/Entidades/Personagens/Jao_Zika_Jogador.s"
+	@echo "... src/Gerenciadores/Atribuidor_Figuras.o"
+	@echo "... src/Gerenciadores/Atribuidor_Figuras.i"
+	@echo "... src/Gerenciadores/Atribuidor_Figuras.s"
 	@echo "... src/Gerenciadores/Gerenciador_Grafico.o"
 	@echo "... src/Gerenciadores/Gerenciador_Grafico.i"
 	@echo "... src/Gerenciadores/Gerenciador_Grafico.s"
