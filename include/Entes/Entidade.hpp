@@ -37,11 +37,11 @@ protected:
 public:
     Entidade(const sf::Vector2f& tamanho, sf::Vector2f pos): 
 		corpo(nullptr),
-		posicao(pos)  
+		posicao(pos), Ente()  
 	{
         // posicao = sf::Vector2f(0.f, 0.f);
         velocidade = sf::Vector2f(0.f, 0.f);
-        corpo = new sf::RectangleShape(tamanho);
+        setTamanho(tamanho);
         corpo->setPosition(posicao);
     }
 
@@ -56,12 +56,15 @@ public:
     virtual void desenhar() override {
         GG->desenhar(*getCorpo());
     }
-
+    virtual void exec() override {	}
     // Métodos para definir posição e velocidade
     void setPosicao(const sf::Vector2f& pos) { posicao = pos; corpo->setPosition(posicao);}
     void setVelocidade(const sf::Vector2f& vel) { 
         cout << "Atualizando velocidade:" << velocidade.y << "para" << vel.y << endl;
         velocidade = vel; 
+    }
+    void setTamanho(const sf::Vector2f& tam) {
+    	corpo = new sf::RectangleShape(tam);
     }
     // void setTamanho(const sf::Vector2f& tam) { corpo.; }
     sf::Vector2f getPosicao() const { return posicao; }

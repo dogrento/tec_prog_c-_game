@@ -28,14 +28,13 @@ public:
     Jogo(): 
         GG(nullptr),
         // fase1(),
-        torreE(5),
+        torreE(10),
         j(sf::Vector2f(50.f, 50.f), sf::Vector2f(10.f, 10.f))
         // obstaculo(sf::Vector2f(50.f, 50.f), sf::Vector2f(500.f, 500.f))
     {
         GG = Gerenciador_Grafico::getInstancia();
-        //torreE.setJogadores(&j);
-        //torreE.setObstaculos();
-        //torreE.init();
+        torreE.set_Jogador(&j);
+        torreE.init();
 	torreE.exec();
     };
     ~Jogo(){};

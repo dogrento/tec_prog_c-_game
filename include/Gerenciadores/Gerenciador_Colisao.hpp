@@ -115,6 +115,15 @@ public:
         //}
 	return false;
     }
+    void exec() {
+	   
+	    itOs = LOs.begin();
+		while(itOs != LOs.end()) {
+			tratarColisao((Entidade*)pJog1, (Entidade*)*itOs);
+			itOs++;
+		}
+	   
+    }
 private:
     /*void resolverColisao(Entidade* e1, Entidade* e2) {
         std::cout << "Colisão detectada entre entidades!" << std::endl;
@@ -160,7 +169,7 @@ private:
                     boundsp2.left + boundsp2.width,
                     p1->getPosicao().y
                 ));
-            }
+	    }
             // Zera a velocidade horizontal
             p1->setVelocidade(sf::Vector2f(0.f, p1->getVelocidade().y));
         }
@@ -187,7 +196,7 @@ private:
                 // Para o movimento vertical
                 p1->setVelocidade(sf::Vector2f(p1->getVelocidade().x, 0.f));
             }
-         }
+         }	
       }
     }
 };

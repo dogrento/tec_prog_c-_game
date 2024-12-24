@@ -15,8 +15,16 @@ public:
         Entidade(tamanho, pos),
         danoso(danoso_)
     {};
-    ~Obstaculo(){};
-    virtual void exec() = 0; 
+    ~Obstaculo(){}; 
+    virtual void atualizar() override {
+        // Atualizar posição com base na velocidade
+        posicao += velocidade;
+        corpo->setPosition(posicao);
+    }
+    virtual void desenhar() override {
+        GG->desenhar(*getCorpo());
+    }
+    virtual void exec() override {	} 
     // void exec(){
     //     desenhar();
     // };

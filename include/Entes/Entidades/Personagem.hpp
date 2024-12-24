@@ -32,7 +32,18 @@ public:
     void reduzirVida(int dano) { vida -= dano; if (vida < 0) vida = 0; } // sobrecarga de operador
     void aumentarVida(int cura) { vida += cura; }
     int getVida() const { return vida; }
+    
+    virtual void atualizar() override {
+        // Atualizar posição com base na velocidade
+        posicao += velocidade;
+        corpo->setPosition(posicao);
+    }
 
+    virtual void desenhar() override {
+        GG->desenhar(*getCorpo());
+    }
+
+    virtual void exec() override {	}
     // Métodos abstratos para movimentação
     virtual void movimentar() = 0;
 };
