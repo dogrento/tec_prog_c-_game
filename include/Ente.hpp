@@ -26,6 +26,10 @@ public:
     virtual void atualizar() = 0;
     void desenhar();
 
+    Gerenciador_Grafico* getInstancia(){
+        return pGG;
+    };
+
     void setID(const int id_);
     int getID() const;
 

@@ -131,9 +131,8 @@ CMakeFiles/sfml-app.dir/main.cpp.o: \
  /usr/include/c++/14.2.1/bits/ostream.tcc /usr/include/c++/14.2.1/istream \
  /usr/include/c++/14.2.1/bits/istream.tcc \
  /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/include/Jao_Zika_Jogo.hpp \
- /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/include/Entes/Entidades/Personagens/Jao_Zika_Jogador.hpp \
- /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/include/Entes/Entidades/Personagem.hpp \
- /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/include/Entes/Entidade.hpp \
+ /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/include/Entes/Menu.hpp \
+ /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/include/Ente.hpp \
  /usr/include/SFML/Graphics.hpp /usr/include/SFML/Window.hpp \
  /usr/include/SFML/System.hpp /usr/include/SFML/Config.hpp \
  /usr/include/SFML/System/Clock.hpp /usr/include/SFML/System/Export.hpp \
@@ -225,6 +224,8 @@ CMakeFiles/sfml-app.dir/main.cpp.o: \
  /usr/include/SFML/Graphics/Sprite.hpp \
  /usr/include/SFML/Graphics/Text.hpp \
  /usr/include/SFML/Graphics/VertexBuffer.hpp \
- /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/include/Ente.hpp \
  /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/include/Gerenciadores/Atribuidor_Figuras.hpp \
- /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/include/Gerenciadores/Gerenciador_Grafico.hpp
+ /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/include/Gerenciadores/Gerenciador_Grafico.hpp \
+ /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/include/Entes/Entidades/Personagens/Jao_Zika_Jogador.hpp \
+ /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/include/Entes/Entidades/Personagem.hpp \
+ /home/douglas/myrepos/utfpr/tecprog/tec_prog_c-_game/include/Entes/Entidade.hpp

@@ -2,9 +2,10 @@
 
 Ente::Ente():
 id(-1),
-pGG(Gerenciador_Grafico::getInstancia())
+pGG(nullptr)
 {
     cout << "Construtora: Ente" << endl;
+    getInstancia();
     setFig();
 }
 
