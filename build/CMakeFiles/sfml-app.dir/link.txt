@@ -1,1 +1,0 @@
-/usr/bin/c++ "CMakeFiles/sfml-app.dir/main.cpp.o" "CMakeFiles/sfml-app.dir/src/Gerenciadores/Gerenciador_Entradas.cpp.o" "CMakeFiles/sfml-app.dir/src/Gerenciadores/Gerenciador_Grafico.cpp.o" "CMakeFiles/sfml-app.dir/src/Jogo.cpp.o" -o sfml-app  -lsfml-graphics -lsfml-window -lsfml-system 
