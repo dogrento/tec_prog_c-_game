@@ -34,6 +34,7 @@ public:
     {
         GG = Gerenciador_Grafico::getInstancia();
         torreE.set_Jogador(&j);
+
         torreE.init();
 	torreE.exec();
     };

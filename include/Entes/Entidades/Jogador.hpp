@@ -7,13 +7,15 @@
 class Jogador : public Personagem {
 private:
 	int pontos;
+	float massa;	
 public:
     Jogador(sf::Vector2f tam, sf::Vector2f pos): 
 	pontos(-1),
-	Personagem(tam, pos) 
+	Personagem(tam, pos), massa(80.0)
 	{
-        corpo->setFillColor(sf::Color::Blue); // Define a cor do jogador
-    }
+		
+	corpo->setFillColor(sf::Color::Blue); // Define a cor do jogador
+    	}
 
     virtual ~Jogador() {}
 

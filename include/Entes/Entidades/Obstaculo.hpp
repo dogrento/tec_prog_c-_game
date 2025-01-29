@@ -8,12 +8,13 @@
 class Obstaculo: public Entidade{
 protected:
     bool danoso; // attr para classe abstrata
-    sf::Vector2f tam; // attr 
+    sf::Vector2f tam; // attr
+    float massa; 
 
 public:
     Obstaculo(sf::Vector2f tamanho, sf::Vector2f pos, bool danoso_): 
         Entidade(tamanho, pos),
-        danoso(danoso_)
+        danoso(danoso_), massa(0.0)
     {};
     ~Obstaculo(){}; 
     virtual void atualizar() override {
@@ -30,4 +31,5 @@ public:
     // };
     bool getDanoso()const{return danoso;}
     void setDanoso(){danoso = !danoso;}
+    void setMassa(float m) {massa = m;}
 };

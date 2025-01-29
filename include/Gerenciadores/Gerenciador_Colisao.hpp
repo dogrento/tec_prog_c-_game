@@ -1,9 +1,9 @@
-#pragma once
-
+#pragma oncew
 #include <iostream>
 #include <vector>
 #include <list>
 #include <set>
+#include <cmath>
 #include "Entes/Entidade.hpp"
 #include "Entes/Entidades/Jogador.hpp"
 #include "Entes/Fase.hpp"
@@ -116,13 +116,16 @@ public:
 	return false;
     }
     void exec() {
-	   
 	    itOs = LOs.begin();
 		while(itOs != LOs.end()) {
+			float g = tratarGravidade((Entidade*)pJog1, (Entidade*)*itOs);
+			cout << "gravidade em exec da class gerenciadoraColisao:" << g  << endl;
+			((Entidade*)pJog1)->setGravidade(g); //itera velocidade +=
+		        ((Entidade*)*itOs)->setGravidade(g);
+
 			tratarColisao((Entidade*)pJog1, (Entidade*)*itOs);
 			itOs++;
-		}
-	   
+		}   
     }
 private:
     /*void resolverColisao(Entidade* e1, Entidade* e2) {
@@ -199,4 +202,16 @@ private:
          }	
       }
     }
+float dot(Entidade *e1, Entidade *e2) {
+	float modulo_e1 = e1->getDistancia(e1, e1);
+	float modulo_e2 = e2->getDistancia(e2, e2);
+	return ((modulo_e1 * modulo_e2) * std::acos(((e1->getPosicao().x * e2->getPosicao().x) + (e1->getPosicao().y * e2->getPosicao().y)) / (modulo_e1 * modulo_e2)));
+}
+float tratarGravidade(Entidade *e1, Entidade *e2) {
+	float dist = e2->getDistancia(e1, e2);
+        if (dist == 0.0f) {
+        	throw std::runtime_error("Distância entre as entidades não pode ser zero.");
+    	}
+        return /* TESTE DA GRAVIDADE COM VALOR NUMERO 1 */ GRAVITY * ((e1->getMassa() * e2->getMassa()) / (dist * dist));	
+}
 };

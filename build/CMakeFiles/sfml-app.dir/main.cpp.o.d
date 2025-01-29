@@ -249,6 +249,16 @@ CMakeFiles/sfml-app.dir/main.cpp.o: \
  /home/elienai/Documentos/TEC/PROJETO_GAME/tec_prog_c-_game/include/Entes/Entidades/Personagem.hpp \
  /home/elienai/Documentos/TEC/PROJETO_GAME/tec_prog_c-_game/include/Entes/Entidade.hpp \
  /home/elienai/Documentos/TEC/PROJETO_GAME/tec_prog_c-_game/include/Ente.hpp \
+ /usr/include/c++/13/cmath /usr/include/math.h \
+ /usr/include/x86_64-linux-gnu/bits/math-vector.h \
+ /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
+ /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
+ /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
+ /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
+ /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
+ /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+ /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
+ /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
  /home/elienai/Documentos/TEC/PROJETO_GAME/tec_prog_c-_game/include/Entes/Entidades/Jogador.hpp \
  /home/elienai/Documentos/TEC/PROJETO_GAME/tec_prog_c-_game/include/Entes/Entidades/Obstaculo.hpp \
  /home/elienai/Documentos/TEC/PROJETO_GAME/tec_prog_c-_game/include/Entes/Fase.hpp \

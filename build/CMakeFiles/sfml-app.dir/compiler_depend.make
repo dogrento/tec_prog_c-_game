@@ -184,6 +184,7 @@ CMakeFiles/sfml-app.dir/main.cpp.o: /home/elienai/Documentos/TEC/PROJETO_GAME/te
   /usr/include/c++/13/cctype \
   /usr/include/c++/13/cerrno \
   /usr/include/c++/13/clocale \
+  /usr/include/c++/13/cmath \
   /usr/include/c++/13/cstdio \
   /usr/include/c++/13/cstdlib \
   /usr/include/c++/13/ctime \
@@ -229,6 +230,7 @@ CMakeFiles/sfml-app.dir/main.cpp.o: /home/elienai/Documentos/TEC/PROJETO_GAME/te
   /usr/include/libintl.h \
   /usr/include/linux/errno.h \
   /usr/include/locale.h \
+  /usr/include/math.h \
   /usr/include/pthread.h \
   /usr/include/sched.h \
   /usr/include/stdc-predef.h \
@@ -247,9 +249,18 @@ CMakeFiles/sfml-app.dir/main.cpp.o: /home/elienai/Documentos/TEC/PROJETO_GAME/te
   /usr/include/x86_64-linux-gnu/bits/errno.h \
   /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
   /usr/include/x86_64-linux-gnu/bits/floatn.h \
+  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
+  /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
+  /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
+  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
   /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
   /usr/include/x86_64-linux-gnu/bits/locale.h \
   /usr/include/x86_64-linux-gnu/bits/long-double.h \
+  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
   /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
@@ -493,6 +504,7 @@ CMakeFiles/sfml-app.dir/src/Gerenciadores/Gerenciador_Entradas.cpp.o: /home/elie
   /usr/include/c++/13/cctype \
   /usr/include/c++/13/cerrno \
   /usr/include/c++/13/clocale \
+  /usr/include/c++/13/cmath \
   /usr/include/c++/13/cstdio \
   /usr/include/c++/13/cstdlib \
   /usr/include/c++/13/ctime \
@@ -536,6 +548,7 @@ CMakeFiles/sfml-app.dir/src/Gerenciadores/Gerenciador_Entradas.cpp.o: /home/elie
   /usr/include/libintl.h \
   /usr/include/linux/errno.h \
   /usr/include/locale.h \
+  /usr/include/math.h \
   /usr/include/pthread.h \
   /usr/include/sched.h \
   /usr/include/stdc-predef.h \
@@ -554,9 +567,18 @@ CMakeFiles/sfml-app.dir/src/Gerenciadores/Gerenciador_Entradas.cpp.o: /home/elie
   /usr/include/x86_64-linux-gnu/bits/errno.h \
   /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
   /usr/include/x86_64-linux-gnu/bits/floatn.h \
+  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
+  /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
+  /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
+  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
   /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
   /usr/include/x86_64-linux-gnu/bits/locale.h \
   /usr/include/x86_64-linux-gnu/bits/long-double.h \
+  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
   /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
@@ -1109,6 +1131,7 @@ CMakeFiles/sfml-app.dir/src/Jogo.cpp.o: /home/elienai/Documentos/TEC/PROJETO_GAM
   /usr/include/c++/13/cctype \
   /usr/include/c++/13/cerrno \
   /usr/include/c++/13/clocale \
+  /usr/include/c++/13/cmath \
   /usr/include/c++/13/cstdio \
   /usr/include/c++/13/cstdlib \
   /usr/include/c++/13/ctime \
@@ -1154,6 +1177,7 @@ CMakeFiles/sfml-app.dir/src/Jogo.cpp.o: /home/elienai/Documentos/TEC/PROJETO_GAM
   /usr/include/libintl.h \
   /usr/include/linux/errno.h \
   /usr/include/locale.h \
+  /usr/include/math.h \
   /usr/include/pthread.h \
   /usr/include/sched.h \
   /usr/include/stdc-predef.h \
@@ -1172,9 +1196,18 @@ CMakeFiles/sfml-app.dir/src/Jogo.cpp.o: /home/elienai/Documentos/TEC/PROJETO_GAM
   /usr/include/x86_64-linux-gnu/bits/errno.h \
   /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
   /usr/include/x86_64-linux-gnu/bits/floatn.h \
+  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
+  /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
+  /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
+  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
   /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
   /usr/include/x86_64-linux-gnu/bits/locale.h \
   /usr/include/x86_64-linux-gnu/bits/long-double.h \
+  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
   /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
@@ -1336,6 +1369,22 @@ CMakeFiles/sfml-app.dir/src/Jogo.cpp.o: /home/elienai/Documentos/TEC/PROJETO_GAM
 
 /usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
 
+/usr/include/x86_64-linux-gnu/bits/time.h:
+
+/usr/include/x86_64-linux-gnu/bits/select.h:
+
+/usr/include/x86_64-linux-gnu/bits/sched.h:
+
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
+
+/usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
+
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:
+
+/usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
+
+/usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
+
 /usr/include/c++/13/bits/invoke.h:
 
 /usr/include/c++/13/bits/functional_hash.h:
@@ -1426,8 +1475,6 @@ CMakeFiles/sfml-app.dir/src/Jogo.cpp.o: /home/elienai/Documentos/TEC/PROJETO_GAM
 
 /usr/include/SFML/System/ThreadLocalPtr.inl:
 
-/usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
-
 /usr/include/SFML/Window/Sensor.hpp:
 
 /usr/include/x86_64-linux-gnu/sys/types.h:
@@ -1437,6 +1484,8 @@ CMakeFiles/sfml-app.dir/src/Jogo.cpp.o: /home/elienai/Documentos/TEC/PROJETO_GAM
 /usr/include/x86_64-linux-gnu/bits/long-double.h:
 
 /usr/include/c++/13/bits/algorithmfwd.h:
+
+/usr/include/x86_64-linux-gnu/bits/fp-logb.h:
 
 /usr/include/SFML/Window/Keyboard.hpp:
 
@@ -1471,8 +1520,6 @@ CMakeFiles/sfml-app.dir/src/Jogo.cpp.o: /home/elienai/Documentos/TEC/PROJETO_GAM
 /usr/include/SFML/System/ThreadLocal.hpp:
 
 /home/elienai/Documentos/TEC/PROJETO_GAME/tec_prog_c-_game/include/Entes/Entidades/Personagem.hpp:
-
-/usr/include/c++/13/bits/streambuf_iterator.h:
 
 /usr/include/c++/13/ostream:
 
@@ -1510,8 +1557,6 @@ CMakeFiles/sfml-app.dir/src/Jogo.cpp.o: /home/elienai/Documentos/TEC/PROJETO_GAM
 
 /usr/include/x86_64-linux-gnu/bits/floatn.h:
 
-/usr/include/SFML/Graphics/Glyph.hpp:
-
 /usr/include/c++/13/bits/range_access.h:
 
 /usr/include/c++/13/system_error:
@@ -1529,10 +1574,6 @@ CMakeFiles/sfml-app.dir/src/Jogo.cpp.o: /home/elienai/Documentos/TEC/PROJETO_GAM
 /usr/include/c++/13/memory:
 
 /usr/include/SFML/System/Sleep.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
-
-/usr/include/SFML/Graphics/PrimitiveType.hpp:
 
 /usr/include/features.h:
 
@@ -1586,6 +1627,8 @@ CMakeFiles/sfml-app.dir/src/Jogo.cpp.o: /home/elienai/Documentos/TEC/PROJETO_GAM
 
 /usr/include/c++/13/bits/hash_bytes.h:
 
+/usr/include/x86_64-linux-gnu/bits/math-vector.h:
+
 /home/elienai/Documentos/TEC/PROJETO_GAME/tec_prog_c-_game/include/Gerenciadores/Gerenciador_Entradas.hpp:
 
 /usr/include/SFML/Config.hpp:
@@ -1596,11 +1639,19 @@ CMakeFiles/sfml-app.dir/src/Jogo.cpp.o: /home/elienai/Documentos/TEC/PROJETO_GAM
 
 /usr/include/c++/13/istream:
 
+/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
+
+/usr/include/SFML/Graphics/PrimitiveType.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
+
 /usr/include/SFML/Graphics/CircleShape.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/cpu-set.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
+
+/usr/include/math.h:
 
 /usr/include/SFML/Graphics/Transform.hpp:
 
@@ -1613,6 +1664,16 @@ CMakeFiles/sfml-app.dir/src/Jogo.cpp.o: /home/elienai/Documentos/TEC/PROJETO_GAM
 /usr/include/c++/13/cerrno:
 
 /usr/include/SFML/Graphics/Rect.inl:
+
+/usr/include/c++/13/cmath:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
+
+/usr/include/SFML/Graphics/RectangleShape.hpp:
 
 /usr/include/SFML/System/Err.hpp:
 
@@ -1635,6 +1696,10 @@ CMakeFiles/sfml-app.dir/src/Jogo.cpp.o: /home/elienai/Documentos/TEC/PROJETO_GAM
 /usr/include/SFML/Graphics/Shape.hpp:
 
 /usr/include/SFML/Graphics/Drawable.hpp:
+
+/usr/include/SFML/Graphics/Glyph.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/fp-fast.h:
 
 /usr/include/c++/13/bits/vector.tcc:
 
@@ -1680,13 +1745,15 @@ CMakeFiles/sfml-app.dir/src/Jogo.cpp.o: /home/elienai/Documentos/TEC/PROJETO_GAM
 
 /usr/include/c++/13/bits/memoryfwd.h:
 
+/usr/include/x86_64-linux-gnu/bits/setjmp.h:
+
+/usr/include/time.h:
+
 /usr/include/SFML/Graphics/Image.hpp:
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/ctype_base.h:
 
 /usr/include/SFML/System/InputStream.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
 
 /usr/include/x86_64-linux-gnu/bits/timesize.h:
 
@@ -1710,6 +1777,10 @@ CMakeFiles/sfml-app.dir/src/Jogo.cpp.o: /home/elienai/Documentos/TEC/PROJETO_GAM
 
 /usr/include/c++/13/bits/localefwd.h:
 
+/usr/include/c++/13/bits/streambuf_iterator.h:
+
+/usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
+
 /usr/include/c++/13/bits/ostream.tcc:
 
 /usr/include/c++/13/bits/postypes.h:
@@ -1729,8 +1800,6 @@ CMakeFiles/sfml-app.dir/src/Jogo.cpp.o: /home/elienai/Documentos/TEC/PROJETO_GAM
 /usr/include/c++/13/bits/ptr_traits.h:
 
 /usr/include/c++/13/bits/refwrap.h:
-
-/usr/include/c++/13/map:
 
 /usr/include/wchar.h:
 
@@ -1882,20 +1951,6 @@ CMakeFiles/sfml-app.dir/src/Jogo.cpp.o: /home/elienai/Documentos/TEC/PROJETO_GAM
 
 /usr/include/x86_64-linux-gnu/bits/floatn-common.h:
 
-/usr/include/x86_64-linux-gnu/bits/sched.h:
+/usr/include/c++/13/map:
 
-/usr/include/x86_64-linux-gnu/bits/time.h:
-
-/usr/include/x86_64-linux-gnu/bits/select.h:
-
-/usr/include/time.h:
-
-/usr/include/x86_64-linux-gnu/bits/setjmp.h:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
-
-/usr/include/SFML/Graphics/RectangleShape.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
+/usr/include/x86_64-linux-gnu/bits/iscanonical.h:

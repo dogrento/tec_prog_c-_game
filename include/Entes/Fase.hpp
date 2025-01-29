@@ -46,7 +46,6 @@ public:
     virtual void criarObstaculos() = 0;
     virtual void set_Jogador(Jogador *j) = 0;
     virtual void init() = 0;
-
     virtual void atualizar() = 0;
     virtual void desenhar() = 0;
     virtual void exec()  {

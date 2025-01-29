@@ -18,12 +18,12 @@
 
 class Personagem : public Entidade {
 protected:
-    int vida; // Quantidade de vida do personagem
-
+    int vida; // Quantidade de vida do personagem  
+    float massa;
 public:
     Personagem(const sf::Vector2f& tamanho, const sf::Vector2f& pos): 
 		Entidade(tamanho, pos), 
-		vida(100) 
+		vida(100), massa(0.0f) 
 		{}
 
     virtual ~Personagem() {}
@@ -46,4 +46,5 @@ public:
     virtual void exec() override {	}
     // Métodos abstratos para movimentação
     virtual void movimentar() = 0;
+    void setMassa(float m) { massa = m; }
 };
